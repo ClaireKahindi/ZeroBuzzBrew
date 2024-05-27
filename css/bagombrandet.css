@@ -77,17 +77,29 @@
 h1{
   font-family: "eight", sans-serif;
   display: flex;
-  justify-content: center;
-  font-size: 200%;
+  margin-left: 10%;
+  font-size: 400%;
+  margin-bottom: 0;
 }
 
 h2{
   font-family: "montserrat", sans-serif;
+  font-size: 22px;
+  margin-bottom: 0;
 }
 
+h3{
+  font-family: "montserrat", sans-serif;
+  font-weight: 300px;
+}
+
+/*Tilføjer whitespace mellem mine sætninger, ændrer min font og fjerner margin øverst*/
 article {
   line-height: 2;
-  font-family: "abel",sans-serif;
+  font-family:"Abel", sans-serif;
+  margin-top: 0;
+  font-size: 20px;
+  text-align: justify;
 }
 
 /*skifter baggrundsfarven*/
@@ -95,6 +107,17 @@ body{
     background-color: #fffde0;
 }
 
+.artikeldelen {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+
+/*ændrer min tekst til personerne*/
+.personer h1 {
+  font-family: "eight", sans-serif;
+  font-size: 100px;
+}
 
 
 /*     !!! FOOTERDELEN !!!    */

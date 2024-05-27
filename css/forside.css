@@ -1,0 +1,141 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+
+.indkob {
+  display: flex;
+  justify-content: right;
+}
+
+/*       !!! NAVIGATIONSBAR DELEN !!!  */
+
+
+/*styler og placerer selve navigationsbaren*/
+.navbar {
+  background-color: #fffde0;
+  display: flex;
+  justify-content: center;
+}
+
+/*styler og placerer teksten i navigationsbaren*/
+.navbar a {
+  font-size: 16px;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/*styler teksterne & boksene de er i*/
+.dropdown .dropbtn {
+  font-size: 150%;  
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 30px 50px;
+  background-color: inherit;
+}
+
+/*Tilføjer en funktion, der gør at det skifter farve, når man klikker henover*/
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #FFF7B3;
+}
+
+/*styler selve boksene (undersiderne) i dropdown funktionen*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #feffef;
+  min-width: 180px;
+  box-shadow: 0px 8px 16px 0px rgba(251, 255, 230, 0.2);
+  z-index: 1;
+}
+
+/*styler selve teksterne i boksene*/
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 22% 26%;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/*Ændrer farven vedd hover funktionen*/
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+/*Sørger for at indholdet bliver vist, ved min hover funktion*/
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+/*    !!!BODY DELEN!!      */
+
+
+/** giver min baggrund en gul farve**/
+
+ body {
+  background-color: #fffde0;
+ }
+
+
+/** sørger her for at dåserne overlapper med logoet & laver det i procent så designet kan blive responsivt**/
+.img1 {
+  position: absolute;
+  left: 40%;
+  width: 22%;
+}
+
+.img2 {
+  position: absolute;
+  right: 27%;
+  width: 27%;
+  margin-top: 15%;
+}
+
+.img3 {
+  position: relative;
+  margin-left: 15%;
+  width: 40%;
+}
+
+
+
+
+/*    !!! FOOTER DELEN  !!! */
+
+
+/**Styler min footer**/
+ .footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 9%;
+  background-color: #FFF7B3;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  /*position: fixed;*/
+  display: flex;
+  justify-content: flex-end;
+  padding: 1px; 
+}
+
+/* Tilføjer lidt margin mellem sektionerne og placerer den i højre hjørne */
+.footer section {
+  flex: end;
+    margin: 0 10px; 
+    font-size: 15px;
+}
+
+
+/*Sørger for at info-delen er større end de andre*/
+.info {
+  font-size: 30px;
+}
+
+
+

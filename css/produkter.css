@@ -74,17 +74,56 @@
 /*    !!!BODY DELEN!!      */
 
 
-/*positionere min overskrift i midten af siden*/
+/*positionere min overskrift i midten af siden, ændrer skrifttypen, størrelsen & fjerner margin*/
 h1{
     display: flex;
     justify-content: center;
+    font-family: "eight", sans-serif;
+    font-size: 400%;
+    margin: 0;
+  }
+
+/*ændrer farven på overskriften til den bestemte øl*/
+.denklassiske h2 {
+  color: #140078;
+  font-family: "montserrat", sans-serif;
+  font-weight: 700%;
 }
+
+.denfriske h2{
+  color: #E1CB00;
+  font-family: "montserrat", sans-serif;
+  font-weight: 700%;
+}
+
+.densunde h2 {
+  color: #F2C86F;
+  font-family: "montserrat", sans-serif;
+  font-weight: 700%;
+}
+
+/*ændrer fonts, størrelserne på skriften for at få bedre design samt tilføjer mere white space mellem linjerne*/
+h3{
+    font-family: "montserrat",sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+
+  }
+
+h4{
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+
+
 
 
 /*skifter baggrundsfarven*/
 body{
     background-color: #fffde0;
 }
+
 
 
 /* Ændrer størrelsen på billederne*/
@@ -110,8 +149,18 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    height: fit-content;
+    margin-top: 100px !important;
 }
 
+.Kalorier h3{
+  margin: 0 0 -30px 0;
+  z-index: 1;
+  font-family: "eight", sans-serif;
+  font-size: 200%;
+  text-align: center;
+}
 
 /*sørger for at denne section, vender spejlvendt ift. de andre*/
 .denfriske {
@@ -138,25 +187,6 @@ img{
     max-width: 30%;
 }
 
-
-/*ændrer størrelserne på skriften for at få bedre design og tilføjer mere white space mellem linjerne*/
-h1{
-    font-size: 200%;
-}
-
-h2{
-    font-size: 30px;
-    line-height: 1.6;
-}
-
-h3{
-    font-size: 20px;
-    line-height: 1.6;
-}
-
-
-
-
 /*styler tilføj til kurv knappen og placerer den ovenpå billeddet*/
 
 .button {
@@ -171,6 +201,7 @@ h3{
     cursor: pointer;
     border-radius: 10px;
     text-align: center;
+    font-family: "eight", sans-serif;
   }
   
   /*sørger for at knappen reagerer når man glider musen henover*/

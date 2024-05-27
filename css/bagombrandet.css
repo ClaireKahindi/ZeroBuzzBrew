@@ -72,6 +72,24 @@
 
 /*     !!! BODYDELEN !!!      */
 
+/*Ændrer fonten på overskriften*/
+
+h1{
+  font-family: "eight", sans-serif;
+  display: flex;
+  justify-content: center;
+  font-size: 200%;
+}
+
+h2{
+  font-family: "montserrat", sans-serif;
+}
+
+article {
+  line-height: 2;
+  font-family: "abel",sans-serif;
+}
+
 /*skifter baggrundsfarven*/
 body{
     background-color: #fffde0;

@@ -74,10 +74,28 @@
 
 /*     !!! BODYDELEN !!!      */
 
+
+/*ændrer fonts og dets størrelse*/
+h1{
+  font-family: "eight", sans-serif;
+  font-size: 250%;
+}
+
+h2{
+  font-family: "montserrat", sans-serif;
+  font-size: 100%;
+}
+
+h3{
+  font-family: "montserrat", sans-serif;
+}
+
+
 /*skifter baggrundsfarven*/
 body{
     background-color: #fffde0;
 }
+
 
 /*sætter selve artiklen ind i en display flex for at få billedet og teksten overfor hinanden*/
 .artikel1 {
@@ -86,9 +104,10 @@ body{
     margin-top: 5%;
 }
 
+
 /*tilføjer en lille smule margin mellem sectionerne*/
 .artikel1 section {
-   margin: -2%; 
+   margin: -5%; 
 }
 
 /*gør mit billede større, så teksten og billedet overlapper*/

@@ -79,11 +79,13 @@
 h1{
   font-family: "eight", sans-serif;
   font-size: 250%;
+  margin-left: 20%;
 }
 
 h2{
   font-family: "montserrat", sans-serif;
   font-size: 100%;
+  margin-left: 20%;
 }
 
 h3{
@@ -100,27 +102,43 @@ body{
 /*sætter selve artiklen ind i en display flex for at få billedet og teksten overfor hinanden*/
 .artikel1 {
     display: flex;
-    margin-left: 10%;
-    margin-top: 5%;
+    flex-direction: row;
+    margin-left: 2%;
 }
 
 
 /*tilføjer en lille smule margin mellem sectionerne*/
 .artikel1 section {
-   margin: -5%; 
+   margin: 1%; 
 }
+
+
 
 /*gør mit billede større, så teksten og billedet overlapper*/
 img{
-    width: 80%;
+    width: 500%;
+    margin-left: 1px;
 }
 
 /*tilføjer mellemrum mellem linjerne*/
 article{
     line-height: 2.5;
+    margin-left: 27%;
+    /*text-align: justify;*/
+    margin-right: 5%;
+    margin-bottom: 10%;
 }
 
 
+.delto {
+  margin-left: 9%;
+  line-height: 0;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
 
 /*     !!! FOOTERDELEN !!!    */
 

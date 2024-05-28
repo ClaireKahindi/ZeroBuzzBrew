@@ -105,6 +105,42 @@
   width: 40%;
 }
 
+.lykkehjul{
+ display: flex;
+ flex-direction: column;
+ padding-left: 5%;
+ padding-right: 20%;
+ padding-top:10%;
+}
+
+h2{
+  font-family: "montserrat",sans-serif;
+  font-weight: 800;
+  margin-bottom: 0;
+}
+
+h1{
+  font-family: "eight",sans-serif;
+  color: #000058;
+}
+
+h3{
+  font-family: "Abel",sans-serif;
+  line-height: 2;
+}
+
+h4{
+  font-family: "montserrat",sans-serif;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+.lykkehjulbillede img{
+  margin-left: 40%;
+  width: 50%;
+  height: auto;
+  margin-top: -10;
+}
 
 
 /*    !!! FOOTER DELEN  !!! */

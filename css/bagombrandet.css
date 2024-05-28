@@ -113,11 +113,79 @@ body{
 }
 
 
-/*ændrer min tekst til personerne*/
-.personer h1 {
+/*ændrer min tekst til personerne
+.Emma h1 {
+  position: relative;
   font-family: "eight", sans-serif;
   font-size: 100px;
+  z-index: 0;
 }
+
+.Emma img {
+  width: 30%;
+  margin-left: 150px;
+  z-index: 1;
+}*/
+
+.Emma {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 50%
+}
+
+.Emma h1{
+margin: 0 0 -60px 0;
+z-index: 0;
+font-family: "eight", sans-serif;
+font-size: 150px;
+text-align: center;
+}
+
+.Emma img {
+  width: 70%;
+  z-index: 1;
+}
+
+.Emma article {
+  text-align: center;
+  max-width: 90%;
+}
+
+
+
+.Kasper {
+  margin-left: 600px;
+  margin-bottom: 30px;
+  display: flex;
+  /*justify-content: flex-end;*/
+  align-items: center;
+  flex-direction: column;
+  width: 50%
+}
+
+.Kasper h1{
+margin: 0 0 -60px 0;
+z-index: 0;
+font-family: "eight", sans-serif;
+font-size: 150px;
+text-align: center;
+}
+
+.Kasper img {
+  width: 70%;
+  z-index: 1;
+}
+
+.Kasper article {
+  text-align: center;
+}
+
+
+
+
 
 
 /*     !!! FOOTERDELEN !!!    */

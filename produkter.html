@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,147 +13,153 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-  
+
 
   <!--Linker til min CSS-->
   <link rel="stylesheet" href="css/produkter.css">
 </head>
+
 <body>
   <main>
 
     <header>
 
-      <a href="forside.html"><img src="images/logofirkantudenfigur.png" alt="HTML tutorial" style="width: 50px;height:50px;"></a>
+      <a href="forside.html"><img src="images/logofirkantudenfigur.png" alt="HTML tutorial"
+          style="width: 50px;height:50px;"></a>
 
       <div class="navbar">
         <div class="dropdown">
-          <button class="dropbtn">PRODUKTER 
+          <button class="dropbtn">PRODUKTER
           </button>
           <div class="dropdown-content">
             <a class="active" href="produkter.html">Varianter</a>
             <a href="#">Merch</a>
           </div>
-        </div> 
-      
+        </div>
+
         <div class="dropdown">
-          <button class="dropbtn">FORUM 
+          <button class="dropbtn">FORUM
           </button>
           <div class="dropdown-content">
             <a href="forum.html">Hvorfor alkoholfri?</a>
             <a href="#">Chat</a>
             <a href="#">Events</a>
           </div>
-        </div> 
-      
-      
+        </div>
+
+
         <div class="dropdown">
-          <button class="dropbtn">BAG OM BRANDET 
+          <button class="dropbtn">BAG OM BRANDET
           </button>
           <div class="dropdown-content">
             <a href="bagombrandet.html">Mød os</a>
             <a href="#">Bryggeriet</a>
           </div>
-        </div> 
-      
+        </div>
+
         <div class="dropdown">
-          <button class="dropbtn">KONTAKT OS 
+          <button class="dropbtn">KONTAKT OS
           </button>
           <div class="dropdown-content">
             <a href="#">Find os</a>
             <a href="#">Sociale medier</a>
             <a href="#">Hyppigt stillede spørgsmål</a>
           </div>
-        </div> 
-      
+        </div>
+
       </div>
-      
+
     </header>
 
 
 
-<!--Laver sidens overskrift-->    
-<h1>
-  VARIANTER
-</h1>
+    <!--Laver sidens overskrift-->
+    <h1>
+      VARIANTER
+    </h1>
 
 
 
-<!--Tilføjer billede af varianten samt den tilhørende tekst og sætter det ind i sektioner, så det er nemmere at udsmykke herefter-->
-<div class="denklassiske">
+    <!--Tilføjer billede af varianten samt den tilhørende tekst og sætter det ind i sektioner, så det er nemmere at udsmykke herefter-->
+    <div class="denklassiske">
 
-  <section>
-  <img src="images/denklassiskekob.png" alt="den klassiske alkoholfrie øl fra ZeroBuzzBeer">
-  <!-- Laver en knap med en tilføj til kurv funktion og placerer den sammen med billedet-->
-  <button class="button" onclick="alert('Varen er nu tilføjet')">Tilføj til kurv!</button>
-  </section>
+      <section>
+        <img src="images/denklassiskekob.png" alt="den klassiske alkoholfrie øl fra ZeroBuzzBeer">
+        <!-- Laver en knap med en tilføj til kurv funktion og placerer den sammen med billedet-->
+        <button class="button" onclick="alert('Varen er nu tilføjet')">Tilføj til kurv!</button>
+      </section>
 
-  <section>
-    <h2>Den klassiske</h2>
-    <h3>Til øldrikkeren, der ønsker en autentisk smagsoplevelse. </h3>
-    <h4>Her tilbyder vi en lys hvede øl som du kender den. Med velkendte ingredienser som humle, malt og hvede får du mulighed for at fordybe dig i den autentiske ølsmag uden alkoholens indflydelse. Nydes kold og klar! </h4>
-    <h4>Alk: 0,0% </h4>
-  </section>
-
-  
-  <section class="Kalorier">
-   <h3>Kalorier & næringsindhold </h3> 
-  <img src="images/kalorierognaeringsindhold.png" alt="Kalorier og næringsindhold til alkoholfri øl">
-  </section>
-
-</div>
+      <section>
+        <h2>Den klassiske</h2>
+        <h3>Til øldrikkeren, der ønsker en autentisk smagsoplevelse. </h3>
+        <h4>Her tilbyder vi en lys hvede øl som du kender den. Med velkendte ingredienser som humle, malt og hvede får
+          du mulighed for at fordybe dig i den autentiske ølsmag uden alkoholens indflydelse. Nydes kold og klar! </h4>
+        <h4>Alk: 0,0% </h4>
+      </section>
 
 
+      <section class="Kalorier">
+        <h3>Kalorier & næringsindhold </h3>
+        <img src="images/kalorierognaeringsindhold.png" alt="Kalorier og næringsindhold til alkoholfri øl">
+      </section>
 
-
-
-
-<div class="denfriske">
-
-  <section>
-  <img src="images/citrusolkob.png" alt="den friske alkoholfrie øl fra ZeroBuzzBeer">
-  <!-- Laver en knap med en tilføj til kurv funktion -->
-  <button type="button" onclick="alert('Varen er nu tilføjet')">Tilføj til kurv!</button>
-  </section>
-
-  <section>
-    <h2>Den friske</h2>
-    <h3>Til øldrikkeren, der ønsker en forfriskende smagsoplevelse.  </h3>
-    <h4>Med højt indhold af citrusnoter og appelsinskal får du her en let og opfriskende øl, som lige har dét ekstra.  </h4>
-    <h4> Alk: 0,0% </h4>
-  </section>
-
- <!--Indsætter min kaloriedelen i en anden section fordi den skal styles lidt anerledes i min CSS --> 
-  <section class="Kalorier">
-   <h3> Kalorier & næringsindhold </h3>
-   <img src="images/kalorierognaeringsindhold.png" alt="Kalorier og næringsindhold til alkoholfri øl">
-  </section>
-
-</div>
+    </div>
 
 
 
 
-<div class="densunde">
 
-  <section>
-  <img src="images/ingefaerkob.png" alt="den sunde alkoholfrie øl fra ZeroBuzzBeer">
-  <!-- Laver en knap med en tilføj til kurv funktion -->
-  <button type="button3" onclick="alert('Varen er nu tilføjet')">Tilføj til kurv!</button>
-  </section>
 
-  <section>
-    <h2>Den sunde</h2>
-    <h3>Til øldrikkeren, der ikke normalt vælger øl </h3>
-    <h4>ZeroBuzz Brews ingefærøl, er vores bud på en alkoholfri øl, der overstiger forventningerne.  Øllens bitre toner harmoner med tilføjelsen af vanilje som giver en subtil sødme og giver vores gingerbeer en unik smagsprofil og aroma. Med tilføjelse af ægte ingefær er der sundhed og smag i hver eneste slurk!  </h4>
-    <h4> Alk: 0,0% </h4>
-  </section>
+    <div class="denfriske">
 
-  <section class="Kalorier">
-    <h3>Kalorier & næringsindhold </h3>
-    <img src="images/kalorierognaeringsindhold.png" alt="Kalorier og næringsindhold til alkoholfri øl">
-  </section>
+      <section>
+        <img src="images/citrusolkob.png" alt="den friske alkoholfrie øl fra ZeroBuzzBeer">
+        <!-- Laver en knap med en tilføj til kurv funktion -->
+        <button type="button" onclick="alert('Varen er nu tilføjet')">Tilføj til kurv!</button>
+      </section>
 
-</div>
+      <section>
+        <h2>Den friske</h2>
+        <h3>Til øldrikkeren, der ønsker en forfriskende smagsoplevelse. </h3>
+        <h4>Med højt indhold af citrusnoter og appelsinskal får du her en let og opfriskende øl, som lige har dét
+          ekstra. </h4>
+        <h4> Alk: 0,0% </h4>
+      </section>
+
+      <!--Indsætter min kaloriedelen i en anden section fordi den skal styles lidt anerledes i min CSS -->
+      <section class="Kalorier">
+        <h3> Kalorier & næringsindhold </h3>
+        <img src="images/kalorierognaeringsindhold.png" alt="Kalorier og næringsindhold til alkoholfri øl">
+      </section>
+
+    </div>
+
+
+
+
+    <div class="densunde">
+
+      <section>
+        <img src="images/ingefaerkob.png" alt="den sunde alkoholfrie øl fra ZeroBuzzBeer">
+        <!-- Laver en knap med en tilføj til kurv funktion -->
+        <button type="button3" onclick="alert('Varen er nu tilføjet')">Tilføj til kurv!</button>
+      </section>
+
+      <section>
+        <h2>Den sunde</h2>
+        <h3>Til øldrikkeren, der ikke normalt vælger øl </h3>
+        <h4>ZeroBuzz Brews ingefærøl, er vores bud på en alkoholfri øl, der overstiger forventningerne. Øllens bitre
+          toner harmoner med tilføjelsen af vanilje som giver en subtil sødme og giver vores gingerbeer en unik
+          smagsprofil og aroma. Med tilføjelse af ægte ingefær er der sundhed og smag i hver eneste slurk! </h4>
+        <h4> Alk: 0,0% </h4>
+      </section>
+
+      <section class="Kalorier">
+        <h3>Kalorier & næringsindhold </h3>
+        <img src="images/kalorierognaeringsindhold.png" alt="Kalorier og næringsindhold til alkoholfri øl">
+      </section>
+
+    </div>
 
 
 
@@ -162,26 +169,27 @@
   <div class="footer">
     <section>
       <div class="info">
-    <p>info / </p>
+        <p>info / </p>
       </div>
     </section>
 
     <section>
-    <p>Århusvej 1, 1. tv 8000 Aarhus </p>
-    <p>ZeroBuzzBrew@gmail.dk</p>
+      <p>Århusvej 1, 1. tv 8000 Aarhus </p>
+      <p>ZeroBuzzBrew@gmail.dk</p>
     </section>
 
     <section>
-    <p>
-      FAQ
-    </p>
-    <p>
-      tlf: 12 34 56 78
-    </p>
+      <p>
+        FAQ
+      </p>
+      <p>
+        tlf: 12 34 56 78
+      </p>
     </section>
 
   </div>
 
-    <script src="js/js.js"></script>
+  <script src="js/js.js"></script>
 </body>
+
 </html>

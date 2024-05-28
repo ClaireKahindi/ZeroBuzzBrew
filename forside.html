@@ -14,7 +14,7 @@
  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 
-
+<!--Linker til den tilsvarende css-->
   <link rel="stylesheet" href="css/forside.css">
 </head>
 <body>
@@ -24,15 +24,17 @@
 <header>
 
 <!--Indsætter min indkøbskurv & søgefunktion og putter det ind i en class for at kunne style den lettere i mi CSS-->
-  <div class="indkob">
+<div class="indkob">
   <a href="default.asp"><img src="images/indkøbskurv.png" alt="HTML tutorial" style="width:42px;height:42px;"></a>
-  <a href="default.asp"><img src="images/sogefunktion.png" alt="HTML tutorial" style="width: 30px;height:30px;"></a>
-  </div>
+  <div class="sogeikon">
+  <a href="default.asp"><img src="images/nytsogeikon.png" alt="HTML tutorial" style="width:30px;height:30px;"></a>
+</div>
+</div>
 
 
-<!-- Laver min header med links til undersiderne og dropdownfunktion ved at tilføje en knap-->
-
+<!-- Laver min navigationsbar med links til undersiderne og dropdownfunktion ved at tilføje en knap-->
 <div class="navbar">
+
   <div class="dropdown">
     <button class="dropbtn">PRODUKTER 
     </button>
@@ -51,7 +53,6 @@
       <a href="#">Events</a>
     </div>
   </div> 
-
 
   <div class="dropdown">
     <button class="dropbtn">BAG OM BRANDET 
@@ -74,50 +75,44 @@
 
 </div>
 
-
-
-
-
-
 </header>
 
  
-
-<!-- Tilføjer billederne til midterdelen af min forside og giver dem alt tekster med SEO -->
+<!-- Tilføjer billederne til midterdelen af min forside og giver dem alt tekster med SEO-->
 <div class="billeder">
 
-<img src="images/dosefrasiden.png" alt="ZeroBuzzBrew alkoholfri øl dåse fra siden" class="img1">
-<img src="images/logofirkantudenfigur.png" alt="Blåt ZeroBuzzBrew logo" class="img3"> 
-<img src="images/dosebagfraogligepo.png" alt="ZerBuzzBrew alkoholfri øl dåser ligepå og fra siden" class="img2">   
+  <img src="images/dosefrasiden.png" alt="ZeroBuzzBrew alkoholfri øl dåse fra siden" class="img1">
+  <img src="images/logofirkantudenfigur.png" alt="Blåt ZeroBuzzBrew logo i sjov og buet tekst " class="img3"> 
+  <img src="images/dosebagfraogligepo.png" alt="øl uden alkohol fra ZeroBuzzBrew set lige på og fra siden" class="img2">   
 
 </div>
 
-  </main>
+</main>
  
-<!-- laver hjemmesidens footer og deler det op i sektioner, så det er nemmere at udsmykke gennem min CSS senere-->
-  <div class="footer">
+<!-- Laver hjemmesidens footer og deler det op i sektioner, så det er nemmere at udsmykke gennem min CSS senere-->
+<div class="footer">
 
-    <section>
-
+  <section>
     <div class="info">
-    <p>info / </p>
+    <p> info / </p>
     </div>
+  </section>
 
-    </section>
-
-    <section>
+  <section>
     <p>Århusvej 1, 1. tv 8000 Aarhus </p>
-    <p>ZeroBuzzBrew@gmail.dk</p>
-    </section>
+<!--Tilføjer et direkte link til ZeroBuzzBrews mail for bedre brugeroplevelse-->
+    <p><a href="mailto:ZeroBuzzBrew@gmail.dk">ZeroBuzzBrew@gmail.dk</a></p>
+  </section>
 
-    <section>
+  <section>
     <p> FAQ </p>
     <p> tlf: 12 34 56 78 </p>
-    </section>
+  </section>
 
-  </div>
+</div>
   
 
   <script src="js/js.js"></script>
+ 
 </body>
 </html>

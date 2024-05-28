@@ -119,7 +119,6 @@ h4{
 
 
 
-
 /*skifter baggrundsfarven*/
 body{
     background-color: #fffde0;
@@ -142,7 +141,7 @@ img{
 }
 
 .denklassiske section {
-    margin: 1%;
+    margin: 10px;
     max-width: 30%;
 }
 

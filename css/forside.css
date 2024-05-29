@@ -75,6 +75,26 @@
   display: block;
 }
 
+/*Sørger for at min burgermenu ikke vises på større skærme*/
+.burger {
+  display: none;
+}
+
+/*Laver @media regler til min menu, så det omformer sig til en burgermenu og dermed gør designet responsivt*/
+@media only screen and (max-width: 600px) {
+  .burger {
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+/*Sørger for at den originale navigationsbar forsinder*/
+  .navbar {
+    display:none;
+  }
+}
+
+
 
 /*    !!!BODY DELEN!!      */
 

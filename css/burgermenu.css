@@ -1,0 +1,39 @@
+
+
+
+
+body{
+    background-color: #fffde0;
+    margin: 0;
+}
+
+
+.topnav {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-family: "eight", sans-serif;
+    line-height: 4;
+    font-size: 17px;
+    background-color: #FFF7B3;
+    padding-left: 5%;
+    width: 150px;
+    height: 125%;
+    margin-left: 155px;
+}
+
+.topnav a {
+    text-decoration: none;
+    color: black;
+}
+
+.burger {
+    display: flex;
+    justify-content: end;
+}
+
+.mobilbaggrund{
+    position: relative;
+    padding-left: 0;
+    width: 5px;
+}

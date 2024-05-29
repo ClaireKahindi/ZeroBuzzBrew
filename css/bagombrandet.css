@@ -101,6 +101,10 @@
     position: absolute;
   }
 
+.logotilbage{
+  display: none;
+}
+
 }
 
 
@@ -213,21 +217,59 @@ text-align: center;
   margin-top: 0;
 }
 
+.tilbagetilforsiden{
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
-  .Emma h1 {
-    font-size: 90px;
+  .personer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
-  .Emma article {
+  .Emma, .Kasper {
+    width: 100%;
+  }
+
+  .Emma h1, .Kasper h1 {
+    margin-bottom: -30px;
+    font-size: 65px;
+  }
+
+  .Emma img, .Kasper img {
+    width: 70%;
+  }
+
+  .Emma article, .Kasper article {
+    margin-top: 3%;
     font-size: 15px;
     padding: 0;
+    margin-bottom: 0;
   }
 
+  .Kasper{
+    margin-top: 5%;
+    margin-left: 0;
+  }
 
+  h3{
+    font-size: 12px;
+  }
 
-.Kasper h1 {
-  font-size: 90px;
-}
+  .nyvariant{
+    display: none;
+  }
+
+  .tilbagetilforsiden{
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .tilbagetilforsiden img {
+    max-width: 100px;
+  }
 
 
 }

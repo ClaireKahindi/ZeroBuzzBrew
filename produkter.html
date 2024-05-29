@@ -32,8 +32,10 @@
 </div>
 
 <!--Indsætter et logo i venstre hjørne og linker den til hjemmesidens forside for bedre brugeroplevelse-->
+<div class="logotilbage">
       <a href="forside.html"><img src="images/logofirkantudenfigur.png" alt="HTML tutorial"
           style="width: 50px;height:50px;"></a>
+</div>
 
 <!-- Laver min navigationsbar med links til undersiderne og dropdownfunktion ved at tilføje en knap-->
 <nav class="navbar">
@@ -186,29 +188,33 @@
     <a href="produkter.html"><img src="images/nyvariant.png" alt="HTML tutorial"></a>
   </div>
 
-
-  <div class="footer">
-    <section>
-      <div class="info">
-        <p>info / </p>
-      </div>
-    </section>
-
-    <section>
-      <p>Århusvej 1, 1. tv 8000 Aarhus </p>
-      <p>ZeroBuzzBrew@gmail.dk</p>
-    </section>
-
-    <section>
-      <p>
-        FAQ
-      </p>
-      <p>
-        tlf: 12 34 56 78
-      </p>
-    </section>
-
+  <div class="tilbagetilforsiden">
+    <a href="forside.html"><img src="images/logotilbage.png" alt="HTML tutorial"></a>
   </div>
+
+ <!-- Laver hjemmesidens footer og deler det op i sektioner, så det er nemmere at udsmykke gennem min CSS senere-->
+<div class="footer">
+
+  <section class="info">
+    <div>
+    <p> info / </p>
+    </div>
+  </section>
+
+
+  <section class="info2">
+    <p>Århusvej 1, 1. tv 8000 Aarhus </p>
+<!--Tilføjer et direkte link til ZeroBuzzBrews mail for bedre brugeroplevelse-->
+    <p><a href="mailto:ZeroBuzzBrew@gmail.dk">ZeroBuzzBrew@gmail.dk</a></p>
+  </section>
+
+  <section class="info2">
+    <p> FAQ </p>
+    <p> tlf: 12 34 56 78 </p>
+  </section>
+
+</div>
+  
 
   <script src="js/js.js"></script>
 </body>

@@ -102,6 +102,26 @@
   .navbar {
     display:none;
   }
+
+  .sogeikon{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 5px; 
+  }
+
+  .indkob{
+    position: absolute;
+  }
+
+.logotilbage{
+  display: none;
+}
+
+.burger img {
+  max-width: 40px;
+}
+
 }
 
 
@@ -185,6 +205,70 @@ h3 {
   margin-top: 0;
 }
 
+@media only screen and (max-width: 600px) {
+
+.artikel1{
+  margin-top: 10%;
+}
+
+.artikel1 img {
+  width: 200px;
+  margin: 0;
+}
+
+.artikel1 article {
+  margin-left: 0;
+  font-size: 15px;
+  margin-right: 0;
+}
+
+h1{
+  margin: 0 0 0 -30%;
+  font-size: 20px;
+}
+
+h2{
+  margin: 0 0 0 -30%;
+}
+
+h3{
+  margin:0;
+}
+
+
+.delto {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  line-height: 2;
+}
+
+
+.article{
+  width: fit-content;
+  margin-left: 0px;
+}
+
+  .nyvariant{
+    display: none;
+  }
+
+  .tilbagetilforsiden{
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .tilbagetilforsiden img {
+    max-width: 100px;
+  }
+
+
+}
+
+
+
+
 
 
 /*     !!! FOOTERDELEN !!!    */
@@ -217,3 +301,19 @@ h3 {
     font-size: 30px;
   }
   
+  @media only screen and (max-width: 600px) { 
+    .info p {
+      font-size: 25px;
+    }
+  
+    .info2 p {
+        font-size: 10px;
+      }
+  
+      .info2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+  
+  }

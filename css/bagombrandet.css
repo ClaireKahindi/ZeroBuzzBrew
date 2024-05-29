@@ -72,6 +72,38 @@
   display: block;
 }
 
+/*Sørger for at min burgermenu ikke vises på større skærme*/
+.burger {
+  display: none;
+}
+
+/*Laver @media regler til min menu, så det omformer sig til en burgermenu og dermed gør designet responsivt*/
+@media only screen and (max-width: 600px) {
+  .burger {
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+/*Sørger for at den originale navigationsbar forsinder*/
+  .navbar {
+    display:none;
+  }
+
+  .sogeikon{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 5px; 
+  }
+
+  .indkob{
+    position: absolute;
+  }
+
+}
+
+
 
 
 /*     !!! BODYDELEN !!!      */
@@ -116,20 +148,6 @@ body{
   margin-left: 10%;
 }
 
-
-/*ændrer min tekst til personerne
-.Emma h1 {
-  position: relative;
-  font-family: "eight", sans-serif;
-  font-size: 100px;
-  z-index: 0;
-}
-
-.Emma img {
-  width: 30%;
-  margin-left: 150px;
-  z-index: 1;
-}*/
 
 .Emma {
   margin-top: 30px;
@@ -195,6 +213,27 @@ text-align: center;
   margin-top: 0;
 }
 
+@media only screen and (max-width: 600px) {
+  .Emma h1 {
+    font-size: 90px;
+  }
+
+  .Emma article {
+    font-size: 15px;
+    padding: 0;
+  }
+
+
+
+.Kasper h1 {
+  font-size: 90px;
+}
+
+
+}
+
+
+
 
 /*     !!! FOOTERDELEN !!!    */
 
@@ -225,4 +264,21 @@ text-align: center;
   .info {
     font-size: 30px;
   }
+
+
+  @media only screen and (max-width: 600px) { 
+    .info p {
+      font-size: 25px;
+    }
   
+    .info2 p {
+        font-size: 10px;
+      }
+  
+      .info2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+  
+  }

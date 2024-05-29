@@ -80,6 +80,10 @@
   display: none;
 }
 
+.lillelogo{
+  display: none;
+}
+
 /*Laver @media regler til min menu, så det omformer sig til en burgermenu og dermed gør designet responsivt*/
 @media only screen and (max-width: 600px) {
   .burger {
@@ -92,7 +96,39 @@
   .navbar {
     display:none;
   }
+
+  .lillelogo{
+    display: block;
+    width: 100%;
+  }
+
+  .lillelogo img {
+    width: 100%;
+  }
+
+  .billeder {
+    display: none;
+  }
+  
+
+  .sogeikon{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 5px; 
+  }
+
+  .indkob{
+    position: absolute;
+  }
 }
+
+
+
+
+
+
+
 
 
 
@@ -163,6 +199,8 @@ h4{
 }
 
 
+
+
 /*    !!! FOOTER DELEN  !!! */
 
 
@@ -190,9 +228,52 @@ h4{
 
 
 /*Sørger for at info-delen er større end de andre*/
-.info {
+.info p {
   font-size: 30px;
 }
 
+@media only screen and (max-width: 600px) { 
+
+  .lykkehjulbillede img {
+  width: 100%;
+  margin: 0;
+  margin-top: 10px;
+  }
+
+  .lykkehjul h4 {
+    font-size: 12px;
+  }
+
+  .lykkehjul h1{
+    font-size: 20px;
+  }
+
+  .lykkehjul h2{
+    font-size: 10px;
+  }
+
+  .lykkehjul h3{
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .lykkehjul {
+    padding: 5%;
+  }
+
+.info p {
+    font-size: 25px;
+  }
+
+  .info2 p {
+      font-size: 10px;
+    }
+
+    .info2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      }
 
 
+}

@@ -5,11 +5,14 @@
 body{
     background-color: #fffde0;
     margin: 0;
+    overflow: hidden;
+    height: 100vh;
 }
 
 
 .topnav {
     position: absolute;
+    right: 0;
     display: flex;
     flex-direction: column;
     font-family: "eight", sans-serif;
@@ -17,9 +20,9 @@ body{
     font-size: 17px;
     background-color: #FFF7B3;
     padding-left: 5%;
-    width: 150px;
-    height: 125%;
-    margin-left: 155px;
+    width: 155px;
+    height: 1000%;
+    z-index: 1;
 }
 
 .topnav a {
@@ -35,5 +38,9 @@ body{
 .mobilbaggrund{
     position: relative;
     padding-left: 0;
-    width: 5px;
+    width: 100%;
+}
+
+.mobilbaggrund img {
+    width: 100%;
 }

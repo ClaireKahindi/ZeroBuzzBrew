@@ -1,73 +1,76 @@
 
 
+/*Styler indkobsdelen ved at sætte den hen i højre hjørne, rykke den væk fra kanten og tilføje whitespace imellem ikonerne*/
+.indkob {
+  display: flex;
+  justify-content: right;
+  gap: 5px;
+  margin-right: 5px;
+}
+
+/*Tilføjer margin-top ved søgeikonet, da det var placeret for højt ift. det andet ikon*/
+.sogeikon {
+  margin-top: 4px;
+}
+
+
 /*     !!! NAVIGATIONSDELEN !!!     */
 
-/*styler og placerer selve navigationsbaren*/
+/*Ændrer baggrundsfarven og placerer navigationsbaren*/
 .navbar {
-    background-color: #fffde0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  /*styler og placerer teksten i navigationsbaren*/
-  .navbar a {
-    font-size: 16px;
-    color: #000000;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /*styler teksterne & boksene de er i*/
-  .dropdown .dropbtn {
-    font-size: 150%;  
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 30px 50px;
-    background-color: inherit;
-  }
-  
-  /*Tilføjer en funktion, der gør at det skifter farve, når man klikker henover*/
-  .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: #FFF7B3;
-  }
-  
-  /*styler selve boksene (undersiderne) i dropdown funktionen*/
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #feffef;
-    min-width: 180px;
-    box-shadow: 0px 8px 16px 0px rgba(251, 255, 230, 0.2);
-    z-index: 1;
-  }
-  
-  /*styler selve teksterne i boksene*/
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 22% 26%;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  /*Ændrer farven vedd hover funktionen*/
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  /*Sørger for at indholdet bliver vist, ved min hover funktion*/
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  
-/*tilføjer en funktion, der gør at man kan se, hvilken side man er inde på*/
-  .navbar a.active {
-    color: #F2C86F;
-  }
-  
+  background-color: #fffde0;
+  display: flex;
+  justify-content: center;
+}
+
+
+/*Styler hovedmenu-teksterne (ændrer font, størrelse, fjerner border & størrelsens vægt) & boksene de er i (tilføjer padding, arver baggrundsfarven)*/
+.dropdown .dropbtn {
+  font-size: 150%; 
+  font-family: "montserrat",sans-serif; 
+  font-weight: 500;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 30px 50px;
+  padding-bottom: px;
+  background-color: inherit;
+}
+
+/*Tilføjer en funktion, der gør at det skifter farve, når man klikker henover*/
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #FFF7B3;
+}
+
+/*Styler selve boksene (undersiderne) i dropdown funktionen, så de går over forsidebilledet, baggrunden ændres, positionere den, tilføjer skygge og giver dem en min længde */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #feffef;
+  min-width: 190px;
+  box-shadow: 0px 8px 16px 0px rgba(251, 255, 230, 0.2);
+  z-index: 1;
+}
+
+/*Styler selve teksterne i boksene (ændrer font & farve, positionere teksterne, tilføjer padding og fjerne overflødig udsmykning)*/
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 15% 20%;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: "Abel",sans-serif;
+}
+
+/*Ændrer farven ved hover funktionen*/
+.dropdown-content a:hover {
+  background-color: #13125f61;
+}
+
+/*Sørger for at indholdet bliver vist, ved min hover funktion*/
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
 
 
@@ -185,6 +188,7 @@ img{
 .densunde section {
     margin: 1%;
     max-width: 30%;
+    margin-bottom: -20%;
 }
 
 /*styler tilføj til kurv knappen og placerer den ovenpå billeddet*/
@@ -250,7 +254,12 @@ img{
 
 
 
-
+.nyvariant{
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0;
+}
 
 
 /*    !!! FOOTER DELEN  !!! */

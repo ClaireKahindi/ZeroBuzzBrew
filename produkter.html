@@ -22,86 +22,95 @@
 <body>
   <main>
 
-    <header>
+<header>
+  <!--Indsætter min indkøbskurv & søgefunktion og putter det ind i en class for at kunne style den lettere i mi CSS-->
+<div class="indkob">
+  <a href="default.asp"><img src="images/indkøbskurv.png" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+  <div class="sogeikon">
+  <a href="default.asp"><img src="images/nytsogeikon.png" alt="HTML tutorial" style="width:30px;height:30px;"></a>
+</div>
+</div>
 
+<!--Indsætter et logo i venstre hjørne og linker den til hjemmesidens forside for bedre brugeroplevelse-->
       <a href="forside.html"><img src="images/logofirkantudenfigur.png" alt="HTML tutorial"
           style="width: 50px;height:50px;"></a>
 
-      <div class="navbar">
-        <div class="dropdown">
-          <button class="dropbtn">PRODUKTER
-          </button>
-          <div class="dropdown-content">
+<!-- Laver min navigationsbar med links til undersiderne og dropdownfunktion ved at tilføje en knap-->
+<div class="navbar">
+
+  <div class="dropdown">
+    <button class="dropbtn">PRODUKTER
+    </button>
+    <div class="dropdown-content">
+<!--Tilføjer en funktion der gør, at brugeren kan se, hvilken underside de er inde på (vha. CSS også)-->
             <a class="active" href="produkter.html">Varianter</a>
             <a href="#">Merch</a>
           </div>
-        </div>
+  </div>
 
-        <div class="dropdown">
-          <button class="dropbtn">FORUM
-          </button>
-          <div class="dropdown-content">
-            <a href="forum.html">Hvorfor alkoholfri?</a>
-            <a href="#">Chat</a>
-            <a href="#">Events</a>
-          </div>
-        </div>
-
-
-        <div class="dropdown">
-          <button class="dropbtn">BAG OM BRANDET
-          </button>
-          <div class="dropdown-content">
-            <a href="bagombrandet.html">Mød os</a>
-            <a href="#">Bryggeriet</a>
-          </div>
-        </div>
-
-        <div class="dropdown">
-          <button class="dropbtn">KONTAKT OS
-          </button>
-          <div class="dropdown-content">
-            <a href="#">Find os</a>
-            <a href="#">Sociale medier</a>
-            <a href="#">Hyppigt stillede spørgsmål</a>
-          </div>
-        </div>
-
+  <div class="dropdown">
+    <button class="dropbtn">FORUM
+    </button>
+      <div class="dropdown-content">
+          <a href="forum.html">Hvorfor alkoholfri?</a>
+          <a href="#">Chat</a>
+          <a href="#">Events</a>
       </div>
-
-    </header>
-
+  </div>
 
 
-    <!--Laver sidens overskrift-->
-    <h1>
+  <div class="dropdown">
+    <button class="dropbtn">BAG OM BRANDET
+    </button>
+      <div class="dropdown-content">
+          <a href="bagombrandet.html">Mød os</a>
+          <a href="#">Bryggeriet</a>
+        </div>
+  </div>
+
+  <div class="dropdown">
+    <button class="dropbtn">KONTAKT OS
+    </button>
+        <div class="dropdown-content">
+          <a href="#">Find os</a>
+          <a href="#">Sociale medier</a>
+          <a href="#">Hyppigt stillede spørgsmål</a>
+    </div>
+  </div>
+
+</div>
+
+</header>
+
+<!--Laver sidens overskrift-->
+<h1>
       VARIANTER
-    </h1>
+</h1>
 
 
 
-    <!--Tilføjer billede af varianten samt den tilhørende tekst og sætter det ind i sektioner, så det er nemmere at udsmykke herefter-->
-    <div class="denklassiske">
+<!--Tilføjer billede af varianten samt den tilhørende tekst og sætter det ind i sektioner, så det er nemmere at udsmykke herefter-->
+<div class="denklassiske">
 
-      <section>
-        <img src="images/denklassiskekob.png" alt="den klassiske alkoholfrie øl fra ZeroBuzzBeer">
-        <!-- Laver en knap med en tilføj til kurv funktion og placerer den sammen med billedet-->
-        <button class="button" onclick="alert('Varen er nu tilføjet')">Tilføj til kurv!</button>
-      </section>
+  <section>
+      <img src="images/denklassiskekob.png" alt="den klassiske alkoholfrie øl fra ZeroBuzzBeer">
+      <!-- Laver en knap med en tilføj til kurv funktion og placerer den sammen med billedet-->
+      <button class="button" onclick="alert('Varen er nu tilføjet')">Tilføj til kurv!</button>
+  </section>
 
-      <section>
-        <h2>Den klassiske</h2>
-        <h3>Til øldrikkeren, der ønsker en autentisk smagsoplevelse. </h3>
-        <h4>Her tilbyder vi en lys hvede øl som du kender den. Med velkendte ingredienser som humle, malt og hvede får
+  <section>
+      <h2>Den klassiske</h2>
+      <h3>Til øldrikkeren, der ønsker en autentisk smagsoplevelse. </h3>
+      <h4>Her tilbyder vi en lys hvede øl som du kender den. Med velkendte ingredienser som humle, malt og hvede får
           du mulighed for at fordybe dig i den autentiske ølsmag uden alkoholens indflydelse. Nydes kold og klar! </h4>
-        <h4>Alk: 0,0% </h4>
-      </section>
+      <h4>Alk: 0,0% </h4>
+  </section>
 
 
-      <section class="Kalorier">
-        <h3>Kalorier & næringsindhold </h3>
-        <img src="images/kalorierognaeringsindhold.png" alt="Kalorier og næringsindhold til alkoholfri øl">
-      </section>
+  <section class="Kalorier">
+      <h3>Kalorier & næringsindhold </h3>
+      <img src="images/kalorierognaeringsindhold.png" alt="Kalorier og næringsindhold til alkoholfri øl">
+  </section>
 
     </div>
 
@@ -165,6 +174,11 @@
 
 
   </main>
+
+  <div class="nyvariant">
+    <a href="produkter.html"><img src="images/nyvariant.png" alt="HTML tutorial"></a>
+  </div>
+
 
   <div class="footer">
     <section>

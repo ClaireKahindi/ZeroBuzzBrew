@@ -19,10 +19,21 @@
 <body>
   <main>
 
-    <header>
+<header>
 
-      <a href="forside.html"><img src="images/logofirkantudenfigur.png" alt="HTML tutorial" style="width: 50px;height:50px;"></a>
+<!--Indsætter min indkøbskurv & søgefunktion og putter det ind i en class for at kunne style den lettere i mi CSS-->
+<div class="indkob">
+  <a href="default.asp"><img src="images/indkøbskurv.png" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+  <div class="sogeikon">
+  <a href="default.asp"><img src="images/nytsogeikon.png" alt="HTML tutorial" style="width:30px;height:30px;"></a>
+</div>
+</div>
 
+
+<!--Indsætter et logo i venstre hjørne og linker den til hjemmesidens forside for bedre brugeroplevelse-->
+  <a href="forside.html"><img src="images/logofirkantudenfigur.png" alt="HTML tutorial" style="width: 50px;height:50px;"></a>
+
+<!-- Laver min navigationsbar med links til undersiderne og dropdownfunktion ved at tilføje en knap-->
       <div class="navbar">
         <div class="dropdown">
           <button class="dropbtn">PRODUKTER 
@@ -37,6 +48,7 @@
           <button class="dropbtn">FORUM 
           </button>
           <div class="dropdown-content">
+<!--Tilføjer en funktion der gør, at brugeren kan se, hvilken underside de er inde på (vha. CSS også)-->
             <a class="active" href="forum.html">Hvorfor alkoholfri?</a>
             <a href="#">Chat</a>
             <a href="#">Events</a>
@@ -108,6 +120,10 @@
 
 
 </main>
+
+<div class="nyvariant">
+  <a href="produkter.html"><img src="images/nyvariant.png" alt="HTML tutorial" style="width:300px;height:200px;"></a>
+</div>
 
 <div class="footer">
   <section>

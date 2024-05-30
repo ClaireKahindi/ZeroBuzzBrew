@@ -1,7 +1,4 @@
-/**
- * file: css/css.css
- * purpose: styling
- **/
+
 
 /*Styler indkobsdelen ved at sætte den hen i højre hjørne, rykke den væk fra kanten og tilføje whitespace imellem ikonerne*/
 .indkob {
@@ -19,7 +16,7 @@
 
 /*       !!! NAVIGATIONSBAR DELEN !!!  */
 
-/*Ændrer baggrundsfarven og placerer navigationsbaren*/
+/*Ændrer baggrundsfarven på navigationsbaren og placerer den */
 .navbar {
   background-color: #fffde0;
   display: flex;
@@ -80,12 +77,15 @@
   display: none;
 }
 
+/*Sørger for at mit lille logo ikke vises på normal desktop skærm*/
 .lillelogo{
   display: none;
 }
 
 /*Laver @media regler til min menu, så det omformer sig til en burgermenu og dermed gør designet responsivt*/
 @media only screen and (max-width: 600px) {
+  
+/*Sørger for at burgermenuen vises på den mindre skærm og placerer den i hjørnet*/
   .burger {
     display: block;
     display: flex;
@@ -97,19 +97,23 @@
     display:none;
   }
 
+ /*Får det lille logo til at vise på de mindre skærme*/ 
   .lillelogo{
     display: block;
     width: 100%;
   }
 
+/*Giver billedet 100% så det fylder hele siden*/
   .lillelogo img {
     width: 100%;
   }
 
+/*Får de andre billeder til at forsvinde*/  
   .billeder {
     display: none;
   }
-  
+
+/*Placerer mit søgeikon nede i højre hjørne for bedre brugeroplevelse og får det til at følge siden*/
   .sogeikon{
     position: fixed;
     bottom: 0;
@@ -117,6 +121,7 @@
     padding: 5px; 
   }
 
+ /*Placerer indkøbsdelen i oppe venstre hjørne*/ 
   .indkob{
     position: absolute;
   }
@@ -140,7 +145,7 @@
  }
 
 
-/* Sørger for, at dåserne overlapper med logoet & laver det i procent så designet kan blive responsivt**/
+/* Sørger for, at dåserne overlapper med logoet & laver det i procent så designet kan blive responsivt til iPad skærme**/
 .img1 {
   position: absolute;
   left: 40%;
@@ -160,6 +165,8 @@
   width: 40%;
 }
 
+
+/*Giver lykkehjuldelen en display flex column så teksterne er under hinanden og tilføjer padding for bedre design og mere whitespace*/
 .lykkehjul{
  display: flex;
  flex-direction: column;
@@ -168,10 +175,11 @@
  padding-top:10%;
 }
 
+
+/*Styler de forskellige fonts*/
 h2{
   font-family: "montserrat",sans-serif;
   font-weight: 800;
-  margin-bottom: 0;
 }
 
 h1{
@@ -187,17 +195,15 @@ h3{
 h4{
   font-family: "montserrat",sans-serif;
   font-style: italic;
-  margin-bottom: 0;
 }
 
+/*Styler og placerer mit lykkehjulet billede*/
 .lykkehjulbillede img{
   margin-left: 40%;
   width: 50%;
   height: auto;
   margin-top: -10;
 }
-
-
 
 
 /*    !!! FOOTER DELEN  !!! */
@@ -212,7 +218,6 @@ h4{
   background-color: #FFF7B3;
   color: rgb(0, 0, 0);
   text-align: left;
-  /*position: fixed;*/
   display: flex;
   justify-content: flex-end;
   padding: 1px; 
@@ -231,14 +236,17 @@ h4{
   font-size: 30px;
 }
 
+/*Laver @media regler til min footer så designet ser bedre ud og tilpasser sig*/
 @media only screen and (max-width: 600px) { 
 
+/*Tilpasser størrelsen på billedet*/
   .lykkehjulbillede img {
   width: 100%;
   margin: 0;
   margin-top: 10px;
   }
 
+/*Ændrer teksternes størrelse*/
   .lykkehjul h4 {
     font-size: 12px;
   }
@@ -256,10 +264,12 @@ h4{
     text-align: justify;
   }
 
+ /*Tilføjer padding til hele sectionen*/ 
   .lykkehjul {
     padding: 5%;
   }
 
+/*Ændrer font størrelserne*/
 .info p {
     font-size: 25px;
   }
@@ -268,6 +278,7 @@ h4{
       font-size: 10px;
     }
 
+/*Sørger for at del 2 af info delen står under hinanden og i centrum*/
     .info2 {
       display: flex;
       flex-direction: column;

@@ -196,6 +196,15 @@ article{
   line-height: 0;
 }
 
+.delto article{
+  line-height: 2.5;
+    margin-left: 21%;
+    /*text-align: justify;*/
+    margin-right: 5%;
+    margin-bottom: 10%;
+    font-family: "abel", sans-serif;
+}
+
 h3 {
   display: flex;
   justify-content: center;
@@ -218,11 +227,14 @@ h3 {
 
 .artikel1{
   margin-top: 10%;
+  position: relative;
+  left: -100px;
 }
 
 .artikel1 img {
   width: 200px;
   margin: 0;
+  
 }
 
 .artikel1 article {
@@ -247,18 +259,28 @@ h3{
 
 .delto {
   display: flex;
-  justify-content: flex-start;
   flex-direction: column;
   line-height: 2;
+  width: 100%;
 }
 
-
-.article{
-  width: fit-content;
-  margin-left: 0px;
+.delto h2{
+  position: relative;
+  left: -80px;
 }
 
-  .nyvariant{
+.delto h1{
+  position: relative;
+  left: -80px;
+}
+
+.delto article{
+  position: relative;
+  left: -127px;
+  width: 100px;
+}
+
+.nyvariant{
     display: none;
   }
 
@@ -276,7 +298,6 @@ h3{
 .artikel1 section {
   padding: 0;
 }
-
 
 
 }
@@ -297,7 +318,6 @@ h3{
     background-color: #FFF7B3;
     color: rgb(0, 0, 0);
     text-align: left;
-    /*position: fixed;*/
     display: flex;
     justify-content: flex-end;
     padding: 1px; 
@@ -317,6 +337,7 @@ h3{
   }
   
   @media only screen and (max-width: 600px) { 
+/*Ændrer font størrelserne*/
     .info p {
       font-size: 25px;
     }
@@ -324,7 +345,8 @@ h3{
     .info2 p {
         font-size: 10px;
       }
-  
+
+/*Sørger for at del 2 af info delen står under hinanden og i centrum*/
       .info2 {
         display: flex;
         flex-direction: column;

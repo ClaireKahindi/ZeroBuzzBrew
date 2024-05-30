@@ -297,7 +297,6 @@ text-align: center;
     background-color: #FFF7B3;
     color: rgb(0, 0, 0);
     text-align: left;
-    /*position: fixed;*/
     display: flex;
     justify-content: flex-end;
     padding: 1px; 
@@ -318,6 +317,7 @@ text-align: center;
 
 
   @media only screen and (max-width: 600px) { 
+/*Ændrer font størrelserne*/
     .info p {
       font-size: 25px;
     }
@@ -325,7 +325,8 @@ text-align: center;
     .info2 p {
         font-size: 10px;
       }
-  
+
+/*Sørger for at del 2 af info delen står under hinanden og i centrum*/
       .info2 {
         display: flex;
         flex-direction: column;

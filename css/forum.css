@@ -90,6 +90,11 @@
   display: none;
 }
 
+.logotilbage{
+  margin-left: 40px;
+  position: absolute;
+}
+
 /*Laver @media regler til min menu, så det omformer sig til en burgermenu og dermed gør designet responsivt*/
 @media only screen and (max-width: 600px) {
   .burger {
@@ -205,6 +210,10 @@ h3 {
   margin-top: 0;
 }
 
+.tilbagetilforsiden {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
 
 .artikel1{
@@ -262,6 +271,12 @@ h3{
   .tilbagetilforsiden img {
     max-width: 100px;
   }
+
+
+.artikel1 section {
+  padding: 0;
+}
+
 
 
 }

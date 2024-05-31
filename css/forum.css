@@ -90,6 +90,7 @@
   display: none;
 }
 
+/*Positionere logoet tilbage til forsiden i venstre hjørne*/
 .logotilbage{
   margin-left: 40px;
   position: absolute;
@@ -97,17 +98,25 @@
 
 /*Laver @media regler til min menu, så det omformer sig til en burgermenu og dermed gør designet responsivt*/
 @media only screen and (max-width: 600px) {
+
+/*Sørger for at burgermenuen bliver fremvist på de mindre skærme*/
   .burger {
     display: block;
     display: flex;
     justify-content: flex-end;
   }
 
+/*Giver selve burgermenu ikonet en bestemt størrelse*/
+.burger img {
+  max-width: 40px;
+}
+
 /*Sørger for at den originale navigationsbar forsinder*/
   .navbar {
     display:none;
   }
 
+/*Placerer mit søgeikon nede i højre hjørne for bedre brugeroplevelse og får det til at følge siden*/
   .sogeikon{
     position: fixed;
     bottom: 0;
@@ -115,18 +124,17 @@
     padding: 5px; 
   }
 
-
+ /*Placerer indkøbsdelen i oppe venstre hjørne*/ 
   .indkob{
     position: absolute;
   }
 
+/*Sørger for at mit logo tilbage bliver skjult*/
 .logotilbage{
   display: none;
 }
 
-.burger img {
-  max-width: 40px;
-}
+
 
 }
 
@@ -136,7 +144,7 @@
 /*     !!! BODYDELEN !!!      */
 
 
-/*ændrer fonts og dets størrelse*/
+/*Ændrer fonts og dets størrelse*/
 h1{
   font-family: "eight", sans-serif;
   font-size: 250%;
@@ -154,13 +162,13 @@ h3{
 }
 
 
-/*skifter baggrundsfarven*/
+/*Skifter baggrundsfarven*/
 body{
     background-color: #fffde0;
 }
 
 
-/*sætter selve artiklen ind i en display flex for at få billedet og teksten overfor hinanden*/
+/*Sætter selve artiklen ind i en display flex for at få billedet i samme række*/
 .artikel1 {
     display: flex;
     flex-direction: row;
@@ -168,51 +176,50 @@ body{
 }
 
 
-/*tilføjer en lille smule margin mellem sectionerne*/
+/*Tilføjer en lille smule margin mellem sectionerne*/
 .artikel1 section {
    margin: 1%; 
 }
 
 
 
-/*gør mit billede større, så teksten og billedet overlapper*/
+/*Gør mit billede større, så teksten og billedet overlapper*/
 img{
     width: 500%;
     margin-left: 1px;
 }
 
-/*tilføjer mellemrum mellem linjerne*/
+/*Tilføjer mellemrum mellem linjerne, tilpasser margin og font ved mine artikler*/
 article{
     line-height: 2.5;
     margin-left: 29%;
-    /*text-align: justify;*/
     margin-right: 5%;
     margin-bottom: 10%;
     font-family: "abel", sans-serif;
-}
-
-
-.delto {
-  margin-left: 10%;
-  line-height: 0;
 }
 
 .delto article{
   line-height: 2.5;
     margin-left: 21%;
-    /*text-align: justify;*/
     margin-right: 5%;
     margin-bottom: 10%;
     font-family: "abel", sans-serif;
 }
 
+/*Tilføjer margin til den nederste del*/
+.delto {
+  margin-left: 10%;
+}
+
+
+/*Sætter min h3er i en display flex og positionerer det i midten*/
 h3 {
   display: flex;
   justify-content: center;
   font-family: "montserrat",sans-serif;
 }
 
-
+/*Placerer den 'nyvariant' nede i hjørnet, som skal fungere som en call to action*/
 .nyvariant{
   position: relative;
   display: flex;
@@ -220,24 +227,30 @@ h3 {
   margin-top: 0;
 }
 
+/*Sørger for, at 'tilbage til forsiden' knappen ikke kan ses ved større skærme*/
 .tilbagetilforsiden {
   display: none;
 }
 
+
+/*Tilføjer @media regler til de mindre skærme*/
 @media only screen and (max-width: 600px) {
 
+/*Positionerer min artikel sektion til telefon skærm*/
 .artikel1{
   margin-top: 10%;
   position: relative;
   left: -100px;
 }
 
+/*Tilpasser billedets størrelse & placering*/
 .artikel1 img {
   width: 200px;
   margin: 0;
   
 }
 
+/*Positionerer selve article men brødteksten i, da den skal stå forskudt med overskriften*/
 .artikel1 article {
   margin-left: 0;
   font-size: 15px;
@@ -245,6 +258,7 @@ h3 {
   width: 190px;
 }
 
+/*Styler mine h1, h2 & h3er*/
 h1{
   margin: 0 0 0 -10%;
   font-size: 20px;
@@ -260,7 +274,7 @@ h3{
   margin:0;
 }
 
-
+/*Giver min del2 en bestemt vidde, line-height (for bedre læsevenlighed) og positionerer den*/
 .delto {
   display: flex;
   flex-direction: column;
@@ -268,6 +282,7 @@ h3{
   width: 70%;
 }
 
+/*Tilpasser del2s overskrifter & article, da disse elementer her skal agerer anerledes*/
 .delto h2{
   position: relative;
   left: -115px;
@@ -285,6 +300,8 @@ h3{
   width: 300px;
 }
 
+
+/*Sørger for at den 'nyvariant' ikke vises, men at 'tilbagetilforsiden' vises i stedet*/
 .nyvariant{
     display: none;
   }
@@ -310,7 +327,6 @@ h3{
 
 
 }
-
 
 
 
@@ -345,7 +361,10 @@ h3{
     font-size: 30px;
   }
   
+
+/*Tilføjer @media regler til de mindre skærme*/
   @media only screen and (max-width: 600px) { 
+
 /*Ændrer font størrelserne*/
     .info p {
       font-size: 25px;

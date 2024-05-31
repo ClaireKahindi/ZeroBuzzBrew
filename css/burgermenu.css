@@ -1,7 +1,7 @@
 
 
 
-
+/*Giver min body en farve*/
 body{
     background-color: #fffde0;
     margin: 0;
@@ -10,6 +10,7 @@ body{
 }
 
 
+/*Positionerer min burgermenu og styler den (giver den baggrundsfarve, sørger for at den er over billedet, giver det line-height)*/
 .topnav {
     position: absolute;
     right: 0;
@@ -25,22 +26,19 @@ body{
     z-index: 1;
 }
 
+/*Gør selve teksterne sorte og fjerner dekorationen på dem*/
 .topnav a {
     text-decoration: none;
     color: black;
 }
 
+/*Positionere min burgermenu*/
 .burger {
     display: flex;
     justify-content: end;
 }
 
-.mobilbaggrund{
-    position: relative;
-    padding-left: 0;
-    width: 100%;
-}
-
+/*Tilpasser baggrundsbilledet så det fylder hele baggrunden*/
 .mobilbaggrund img {
     width: 100%;
 }

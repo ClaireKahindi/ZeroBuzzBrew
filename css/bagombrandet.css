@@ -77,6 +77,7 @@
   display: none;
 }
 
+/*Positionere logoet tilbage til forsiden i venstre hjørne*/
 .logotilbage{
   margin-left: 40px;
   position: absolute;
@@ -95,6 +96,7 @@
     display:none;
   }
 
+/*Placerer mit søgeikon nede i højre hjørne for bedre brugeroplevelse og får det til at følge siden*/
   .sogeikon{
     position: fixed;
     bottom: 0;
@@ -102,11 +104,12 @@
     padding: 5px; 
   }
 
-
+ /*Placerer indkøbsdelen i oppe venstre hjørne*/ 
   .indkob{
     position: absolute;
   }
 
+/*Sørger for at mit logo tilbage bliver skjult*/
 .logotilbage{
   display: none;
 }
@@ -119,7 +122,6 @@
 /*     !!! BODYDELEN !!!      */
 
 /*Ændrer fonten på overskriften*/
-
 h1{
   font-family: "eight", sans-serif;
   display: flex;
@@ -128,12 +130,7 @@ h1{
   margin-bottom: 0;
 }
 
-h2{
-  font-family: "montserrat", sans-serif;
-  font-size: 22px;
-  margin-bottom: 0;
-}
-
+/*Ændrer fonten og dets weight på min h3 for at gøre den mere iøjenfaldende*/
 h3{
   font-family: "montserrat", sans-serif;
   font-weight: 300px;
@@ -148,17 +145,18 @@ article {
   text-align: justify;
 }
 
-/*skifter baggrundsfarven*/
+/*Skifter baggrundsfarven*/
 body{
     background-color: #fffde0;
 }
 
+/*Placerer artikeldelen*/
 .artikeldelen {
   margin-right: 10%;
   margin-left: 10%;
 }
 
-
+/*Placerer hele Kasper sektionen*/
 .Emma {
   margin-top: 30px;
   display: flex;
@@ -168,7 +166,8 @@ body{
   width: 50%
 }
 
-.Emma h1{
+/*Styler overskriften og sørger for at teksten er under mit billede vha. z-index*/
+.Emma h1, .Kasper h1{
 margin: 0 0 -60px 0;
 z-index: 0;
 font-family: "eight", sans-serif;
@@ -176,46 +175,30 @@ font-size: 150px;
 text-align: center;
 }
 
-.Emma img {
+/*Tilpasser billedet og sørger for at det går udover navnet*/
+.Emma img, .Kasper img {
   width: 70%;
   z-index: 1;
 }
 
-.Emma article {
+/*Positionerer selve teksten der tilhører Emma & Kasper sektionen i midten af sektionen & giver den en max vidde*/
+.Emma article, .Kasper article {
   text-align: center;
   max-width: 90%;
 }
 
-
-
+/*Placerer hele Kasper sektionen*/
 .Kasper {
   margin-left: 600px;
   margin-bottom: 30px;
   display: flex;
-  /*justify-content: flex-end;*/
   align-items: center;
   flex-direction: column;
   width: 50%
 }
 
-.Kasper h1{
-margin: 0 0 -60px 0;
-z-index: 0;
-font-family: "eight", sans-serif;
-font-size: 150px;
-text-align: center;
-}
 
-.Kasper img {
-  width: 70%;
-  z-index: 1;
-}
-
-.Kasper article {
-  text-align: center;
-}
-
-
+/*Positionerer min 'nyvariant' sektion*/
 .nyvariant{
   position: relative;
   display: flex;
@@ -223,50 +206,61 @@ text-align: center;
   margin-top: 0;
 }
 
+/*Tilpasser billede størrelsen*/
 .nyvariant img {
   width: 300px;
 }
 
+/*Fjerne displayet på min 'tilbage til forsiden funktion*/
 .tilbagetilforsiden{
   display: none;
 }
 
+/*Tilføjer @media regler til de mindre skærme*/
 @media only screen and (max-width: 600px) {
+
+/*Sætter 'personer-class'en i column i stedet, så de står under hinanden og centrer indholdet*/ 
   .personer {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
+/*Tilpasser sektionerne så de fylder hele siden*/
   .Emma, .Kasper {
     width: 100%;
   }
 
+/*Tilpasser overskrifterne*/
   .Emma h1, .Kasper h1 {
     margin-bottom: -30px;
     font-size: 65px;
   }
 
+/*Ændrer str. på billederne*/
   .Emma img, .Kasper img {
     width: 70%;
   }
 
+/*Styler selve .personer's articles*/
   .Emma article, .Kasper article {
     margin-top: 3%;
     font-size: 15px;
-    padding: 0;
-    margin-bottom: 0;
+    margin-bottom: 10px;
   }
 
+/*Tilføjer whitespace mellem de 2 sektioner og placerer .Kasper*/
   .Kasper{
     margin-top: 5%;
     margin-left: 0;
   }
 
+/*Ændrer font størrelse på min h3*/
   h3{
     font-size: 12px;
   }
 
+/*Sørger for at den 'nyvariant' ikke vises, men at 'tilbagetilforsiden' vises i stedet*/
   .nyvariant{
     display: none;
   }
@@ -320,6 +314,7 @@ text-align: center;
   }
 
 
+/*Tilføjer @media regler til de mindre skærme*/
   @media only screen and (max-width: 600px) { 
 /*Ændrer font størrelserne*/
     .info p {

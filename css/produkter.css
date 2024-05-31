@@ -85,11 +85,18 @@
 
 /*Laver @media regler til min menu, så det omformer sig til en burgermenu og dermed gør designet responsivt*/
 @media only screen and (max-width: 600px) {
+
+/*Sørger for at burgermenuen bliver fremvist på de mindre skærme*/
   .burger {
     display: block;
     display: flex;
     justify-content: flex-end;
   }
+
+/*Giver selve burgermenu ikonet en bestemt størrelse*/
+.burger img {
+  max-width: 40px;
+}
 
 /*Sørger for at den originale navigationsbar forsinder*/
   .navbar {
@@ -114,10 +121,7 @@
   display: none;
 }
 
-/*Giver selve burgermenu ikonet en bestemt størrelse*/
-.burger img {
-  max-width: 40px;
-}
+
 
 }
 
@@ -137,7 +141,7 @@ h1{
     margin: 0;
   }
 
-/*Ændrer farven på overskriften til den bestemte øl*/
+/*Ændrer farven, font og str på overskriften til den bestemte øl*/
 .denklassiske h2 {
   color: #140078;
   font-family: "montserrat", sans-serif;
@@ -192,6 +196,7 @@ img{
     margin-bottom: 5%;
 }
 
+/*Tilpasser sektionen for mere whitespace = bedre design*/
 .denklassiske section {
     margin: 10px;
     max-width: 30%;
@@ -379,7 +384,7 @@ button[type="button3"] {
   top: 2450px;
 }
 
-/*Sørger for at den nye variant ikke vises, men at 'tilbagetilforsiden' vises i stedet*/
+/*Sørger for at den 'nyvariant' ikke vises, men at 'tilbagetilforsiden' vises i stedet*/
 .nyvariant{
   display: none;
 }
@@ -402,6 +407,7 @@ button[type="button3"] {
   font-size: 25px;
 }
 
+/*Fjerne marginen ved kalorier og giver den stor vigtighed, så min kode reagere på dette i stedet*/
 .Kalorier {
   margin: 5px !important;
 }

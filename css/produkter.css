@@ -442,7 +442,7 @@ button[type="button3"] {
   
   
 /*Sørger for at info-delene er større end de andre*/
-  .info {
+  .info p {
     font-size: 30px;
   }
   

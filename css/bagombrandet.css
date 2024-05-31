@@ -309,7 +309,7 @@ text-align: center;
   
   
   /*Sørger for at info-delen er større end de andre*/
-  .info {
+  .info p {
     font-size: 30px;
   }
 

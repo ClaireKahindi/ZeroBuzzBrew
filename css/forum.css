@@ -111,9 +111,10 @@
   .sogeikon{
     position: fixed;
     bottom: 0;
-    right: 0;
+    right: 55px;
     padding: 5px; 
   }
+
 
   .indkob{
     position: absolute;
@@ -241,15 +242,18 @@ h3 {
   margin-left: 0;
   font-size: 15px;
   margin-right: 0;
+  width: 190px;
 }
 
 h1{
-  margin: 0 0 0 -30%;
+  margin: 0 0 0 -10%;
   font-size: 20px;
+  width: 99%;
 }
 
 h2{
-  margin: 0 0 0 -30%;
+  margin: 0 0 0 -10%;
+  font-size:10px;
 }
 
 h3{
@@ -261,23 +265,24 @@ h3{
   display: flex;
   flex-direction: column;
   line-height: 2;
-  width: 100%;
+  width: 70%;
 }
 
 .delto h2{
   position: relative;
-  left: -80px;
+  left: -115px;
 }
 
 .delto h1{
   position: relative;
-  left: -80px;
+  left: -115px;
+  width: 150%;
 }
 
 .delto article{
   position: relative;
-  left: -127px;
-  width: 100px;
+  left: -135px;
+  width: 300px;
 }
 
 .nyvariant{
@@ -288,15 +293,19 @@ h3{
     display: block;
     display: flex;
     justify-content: flex-end;
+    position: fixed;
+    bottom: -20px;
+    right: -15px;
   }
-
+  
   .tilbagetilforsiden img {
-    max-width: 100px;
+    max-width: 80px;
   }
 
 
 .artikel1 section {
   padding: 0;
+  width: 200px;
 }
 
 

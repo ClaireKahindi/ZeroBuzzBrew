@@ -98,9 +98,10 @@
   .sogeikon{
     position: fixed;
     bottom: 0;
-    right: 0;
+    right: 55px;
     padding: 5px; 
   }
+
 
   .indkob{
     position: absolute;
@@ -274,10 +275,13 @@ text-align: center;
     display: block;
     display: flex;
     justify-content: flex-end;
+    position: fixed;
+    bottom: -20px;
+    right: -15px;
   }
-
+  
   .tilbagetilforsiden img {
-    max-width: 100px;
+    max-width: 80px;
   }
 
 

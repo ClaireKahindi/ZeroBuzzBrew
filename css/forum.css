@@ -148,13 +148,15 @@
 h1 {
   font-family: "eight", sans-serif;
   font-size: 250%;
-  margin-left: 20%;
+  margin-left: 21%;
+  margin-bottom: 1%;
+  margin-top: 0%;
 }
 
 h2 {
   font-family: "montserrat", sans-serif;
   font-size: 100%;
-  margin-left: 20%;
+  margin-left: 21%;
 }
 
 h3 {

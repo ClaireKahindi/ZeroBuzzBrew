@@ -1,4 +1,3 @@
-
 /*Styler indkobsdelen ved at sætte den hen i højre hjørne, rykke den væk fra kanten og tilføje whitespace imellem ikonerne*/
 .indkob {
   display: flex;
@@ -26,8 +25,8 @@
 
 /*Styler hovedmenu-teksterne (ændrer font, størrelse, fjerner border & størrelsens vægt) & boksene de er i (tilføjer padding, arver baggrundsfarven)*/
 .dropdown .dropbtn {
-  font-size: 150%; 
-  font-family: "montserrat",sans-serif; 
+  font-size: 150%;
+  font-family: "montserrat", sans-serif;
   font-weight: 500;
   border: none;
   color: rgb(0, 0, 0);
@@ -37,7 +36,8 @@
 }
 
 /*Tilføjer en funktion, der gør at det skifter farve, når man klikker henover*/
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover,
+.dropdown:hover .dropbtn {
   background-color: #FFF7B3;
 }
 
@@ -59,7 +59,7 @@
   text-decoration: none;
   display: block;
   text-align: left;
-  font-family: "Abel",sans-serif;
+  font-family: "Abel", sans-serif;
 }
 
 /*Ændrer farven ved hover funktionen*/
@@ -78,7 +78,7 @@
 }
 
 /*Positionere logoet tilbage til forsiden i venstre hjørne*/
-.logotilbage{
+.logotilbage {
   margin-left: 40px;
   position: absolute;
 }
@@ -91,28 +91,28 @@
     justify-content: flex-end;
   }
 
-/*Sørger for at den originale navigationsbar forsinder*/
+  /*Sørger for at den originale navigationsbar forsinder*/
   .navbar {
-    display:none;
+    display: none;
   }
 
-/*Placerer mit søgeikon nede i højre hjørne for bedre brugeroplevelse og får det til at følge siden*/
-  .sogeikon{
+  /*Placerer mit søgeikon nede i højre hjørne for bedre brugeroplevelse og får det til at følge siden*/
+  .sogeikon {
     position: fixed;
     bottom: 0;
     right: 55px;
-    padding: 5px; 
+    padding: 5px;
   }
 
- /*Placerer indkøbsdelen i oppe venstre hjørne*/ 
-  .indkob{
+  /*Placerer indkøbsdelen i oppe venstre hjørne*/
+  .indkob {
     position: absolute;
   }
 
-/*Sørger for at mit logo tilbage bliver skjult*/
-.logotilbage{
-  display: none;
-}
+  /*Sørger for at mit logo tilbage bliver skjult*/
+  .logotilbage {
+    display: none;
+  }
 
 }
 
@@ -122,7 +122,7 @@
 /*     !!! BODYDELEN !!!      */
 
 /*Ændrer fonten på overskriften*/
-h1{
+h1 {
   font-family: "eight", sans-serif;
   display: flex;
   margin-left: 10%;
@@ -131,7 +131,7 @@ h1{
 }
 
 /*Ændrer fonten og dets weight på min h3 for at gøre den mere iøjenfaldende*/
-h3{
+h3 {
   font-family: "montserrat", sans-serif;
   font-weight: 300px;
 }
@@ -139,15 +139,15 @@ h3{
 /*Tilføjer whitespace mellem mine sætninger, ændrer min font og fjerner margin øverst*/
 article {
   line-height: 2;
-  font-family:"Abel", sans-serif;
+  font-family: "Abel", sans-serif;
   margin-top: 0;
   font-size: 20px;
   text-align: justify;
 }
 
 /*Skifter baggrundsfarven*/
-body{
-    background-color: #fffde0;
+body {
+  background-color: #fffde0;
 }
 
 /*Placerer artikeldelen*/
@@ -167,22 +167,25 @@ body{
 }
 
 /*Styler overskriften og sørger for at teksten er under mit billede vha. z-index*/
-.Emma h1, .Kasper h1{
-margin: 0 0 -60px 0;
-z-index: 0;
-font-family: "eight", sans-serif;
-font-size: 150px;
-text-align: center;
+.Emma h1,
+.Kasper h1 {
+  margin: 0 0 -60px 0;
+  z-index: 0;
+  font-family: "eight", sans-serif;
+  font-size: 150px;
+  text-align: center;
 }
 
 /*Tilpasser billedet og sørger for at det går udover navnet*/
-.Emma img, .Kasper img {
+.Emma img,
+.Kasper img {
   width: 70%;
   z-index: 1;
 }
 
 /*Positionerer selve teksten der tilhører Emma & Kasper sektionen i midten af sektionen & giver den en max vidde*/
-.Emma article, .Kasper article {
+.Emma article,
+.Kasper article {
   text-align: center;
   max-width: 90%;
 }
@@ -199,7 +202,7 @@ text-align: center;
 
 
 /*Positionerer min 'nyvariant' sektion*/
-.nyvariant{
+.nyvariant {
   position: relative;
   display: flex;
   justify-content: flex-end;
@@ -212,60 +215,64 @@ text-align: center;
 }
 
 /*Fjerne displayet på min 'tilbage til forsiden funktion*/
-.tilbagetilforsiden{
+.tilbagetilforsiden {
   display: none;
 }
 
 /*Tilføjer @media regler til de mindre skærme*/
 @media only screen and (max-width: 600px) {
 
-/*Sætter 'personer-class'en i column i stedet, så de står under hinanden og centrer indholdet*/ 
+  /*Sætter 'personer-class'en i column i stedet, så de står under hinanden og centrer indholdet*/
   .personer {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-/*Tilpasser sektionerne så de fylder hele siden*/
-  .Emma, .Kasper {
+  /*Tilpasser sektionerne så de fylder hele siden*/
+  .Emma,
+  .Kasper {
     width: 100%;
   }
 
-/*Tilpasser overskrifterne*/
-  .Emma h1, .Kasper h1 {
+  /*Tilpasser overskrifterne*/
+  .Emma h1,
+  .Kasper h1 {
     margin-bottom: -30px;
     font-size: 65px;
   }
 
-/*Ændrer str. på billederne*/
-  .Emma img, .Kasper img {
+  /*Ændrer str. på billederne*/
+  .Emma img,
+  .Kasper img {
     width: 70%;
   }
 
-/*Styler selve .personer's articles*/
-  .Emma article, .Kasper article {
+  /*Styler selve .personer's articles*/
+  .Emma article,
+  .Kasper article {
     margin-top: 3%;
     font-size: 15px;
     margin-bottom: 10px;
   }
 
-/*Tilføjer whitespace mellem de 2 sektioner og placerer .Kasper*/
-  .Kasper{
+  /*Tilføjer whitespace mellem de 2 sektioner og placerer .Kasper*/
+  .Kasper {
     margin-top: 5%;
     margin-left: 0;
   }
 
-/*Ændrer font størrelse på min h3*/
-  h3{
+  /*Ændrer font størrelse på min h3*/
+  h3 {
     font-size: 12px;
   }
 
-/*Sørger for at den 'nyvariant' ikke vises, men at 'tilbagetilforsiden' vises i stedet*/
-  .nyvariant{
+  /*Sørger for at den 'nyvariant' ikke vises, men at 'tilbagetilforsiden' vises i stedet*/
+  .nyvariant {
     display: none;
   }
 
-  .tilbagetilforsiden{
+  .tilbagetilforsiden {
     display: block;
     display: flex;
     justify-content: flex-end;
@@ -273,7 +280,7 @@ text-align: center;
     bottom: -20px;
     right: -15px;
   }
-  
+
   .tilbagetilforsiden img {
     max-width: 80px;
   }
@@ -288,48 +295,54 @@ text-align: center;
 
 /**Styler min footer**/
 .footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 9%;
-    background-color: #FFF7B3;
-    color: rgb(0, 0, 0);
-    text-align: left;
-    display: flex;
-    justify-content: flex-end;
-    padding: 1px; 
-  }
-  
-  /* Tilføjer lidt margin mellem sektionerne og placerer den i højre hjørne */
-  .footer section {
-    flex: end;
-      margin: 0 10px; 
-      font-size: 15px;
-  }
-  
-  
-  /*Sørger for at info-delen er større end de andre*/
-  .info p {
-    font-size: 30px;
-  }
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 9%;
+  background-color: #FFF7B3;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1px;
+}
+
+/* Tilføjer lidt margin mellem sektionerne og placerer den i højre hjørne */
+.footer section {
+  flex: end;
+  margin: 0 10px;
+  font-size: 15px;
+}
+
+
+/*Sørger for at info-delen er større end de andre*/
+.info p {
+  font-size: 30px;
+}
+
+/*Skjuler den ekstra seo*/
+.ekstraseo {
+  display: none;
+}
 
 
 /*Tilføjer @media regler til de mindre skærme*/
-  @media only screen and (max-width: 600px) { 
-/*Ændrer font størrelserne*/
-    .info p {
-      font-size: 25px;
-    }
-  
-    .info2 p {
-        font-size: 10px;
-      }
+@media only screen and (max-width: 600px) {
 
-/*Sørger for at del 2 af info delen står under hinanden og i centrum*/
-      .info2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        }
-  
+  /*Ændrer font størrelserne*/
+  .info p {
+    font-size: 25px;
   }
+
+  .info2 p {
+    font-size: 10px;
+  }
+
+  /*Sørger for at del 2 af info delen står under hinanden og i centrum*/
+  .info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}

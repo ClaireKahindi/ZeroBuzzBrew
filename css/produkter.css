@@ -1,5 +1,3 @@
-
-
 /*Styler indkobsdelen ved at sætte den hen i højre hjørne, rykke den væk fra kanten og tilføje whitespace imellem ikonerne*/
 .indkob {
   display: flex;
@@ -26,8 +24,8 @@
 
 /*Styler hovedmenu-teksterne (ændrer font, størrelse, fjerner border & størrelsens vægt) & boksene de er i (tilføjer padding, arver baggrundsfarven)*/
 .dropdown .dropbtn {
-  font-size: 150%; 
-  font-family: "montserrat",sans-serif; 
+  font-size: 150%;
+  font-family: "montserrat", sans-serif;
   font-weight: 500;
   border: none;
   color: rgb(0, 0, 0);
@@ -37,7 +35,8 @@
 }
 
 /*Tilføjer en funktion, der gør at det skifter farve, når man klikker henover*/
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover,
+.dropdown:hover .dropbtn {
   background-color: #FFF7B3;
 }
 
@@ -59,7 +58,7 @@
   text-decoration: none;
   display: block;
   text-align: left;
-  font-family: "Abel",sans-serif;
+  font-family: "Abel", sans-serif;
 }
 
 /*Ændrer farven ved hover funktionen*/
@@ -78,7 +77,7 @@
 }
 
 /*Placerer mit lille logo op i venstre hjørne, men med lidt whitespace*/
-.logotilbage{
+.logotilbage {
   margin-left: 40px;
   position: absolute;
 }
@@ -86,40 +85,40 @@
 /*Laver @media regler til min menu, så det omformer sig til en burgermenu og dermed gør designet responsivt*/
 @media only screen and (max-width: 600px) {
 
-/*Sørger for at burgermenuen bliver fremvist på de mindre skærme*/
+  /*Sørger for at burgermenuen bliver fremvist på de mindre skærme*/
   .burger {
     display: block;
     display: flex;
     justify-content: flex-end;
   }
 
-/*Giver selve burgermenu ikonet en bestemt størrelse*/
-.burger img {
-  max-width: 40px;
-}
-
-/*Sørger for at den originale navigationsbar forsinder*/
-  .navbar {
-    display:none;
+  /*Giver selve burgermenu ikonet en bestemt størrelse*/
+  .burger img {
+    max-width: 40px;
   }
 
-/*Placerer mit søgeikon nede i højre hjørne for bedre brugeroplevelse og får det til at følge siden*/
-  .sogeikon{
+  /*Sørger for at den originale navigationsbar forsinder*/
+  .navbar {
+    display: none;
+  }
+
+  /*Placerer mit søgeikon nede i højre hjørne for bedre brugeroplevelse og får det til at følge siden*/
+  .sogeikon {
     position: fixed;
     bottom: 0;
     right: 55px;
-    padding: 5px; 
+    padding: 5px;
   }
 
- /*Placerer indkøbsdelen i oppe venstre hjørne*/ 
-  .indkob{
+  /*Placerer indkøbsdelen i oppe venstre hjørne*/
+  .indkob {
     position: absolute;
   }
 
-/*Sørger for at mit logo tilbage bliver skjult*/
-.logotilbage{
-  display: none;
-}
+  /*Sørger for at mit logo tilbage bliver skjult*/
+  .logotilbage {
+    display: none;
+  }
 
 
 
@@ -133,13 +132,13 @@
 
 
 /*Positionere min overskrift i midten af siden, ændrer skrifttypen, størrelsen & fjerner margin*/
-h1{
-    display: flex;
-    justify-content: center;
-    font-family: "eight", sans-serif;
-    font-size: 400%;
-    margin: 0;
-  }
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "eight", sans-serif;
+  font-size: 400%;
+  margin: 0;
+}
 
 /*Ændrer farven, font og str på overskriften til den bestemte øl*/
 .denklassiske h2 {
@@ -148,7 +147,7 @@ h1{
   font-weight: 700%;
 }
 
-.denfriske h2{
+.denfriske h2 {
   color: #E1CB00;
   font-family: "montserrat", sans-serif;
   font-weight: 700%;
@@ -161,59 +160,59 @@ h1{
 }
 
 /*Ændrer fonts, størrelserne på skriften for at få bedre design samt tilføjer mere white space mellem linjerne*/
-h3{
-    font-family: "montserrat",sans-serif;
-    font-size: 20px;
-    line-height: 1.6;
+h3 {
+  font-family: "montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
 
-  }
+}
 
-h4{
-    font-family: "Abel", sans-serif;
-    font-size: 20px;
-    line-height: 2;
-  }
+h4 {
+  font-family: "Abel", sans-serif;
+  font-size: 20px;
+  line-height: 2;
+}
 
 
 
 /*Skifter baggrundsfarven*/
-body{
-    background-color: #fffde0;
+body {
+  background-color: #fffde0;
 }
 
 
 /* Ændrer størrelsen på billederne*/
-img{
-    width: 350px;
-    height: auto;
+img {
+  width: 350px;
+  height: auto;
 }
 
 
 /*Sætter mine produkter ind i en display flex for at få teksten op ved siden af billedet*/
 .denklassiske {
-    display:flex;
-    margin-left: 5%;
-    margin-bottom: 5%;
+  display: flex;
+  margin-left: 5%;
+  margin-bottom: 5%;
 }
 
 /*Tilpasser sektionen for mere whitespace = bedre design*/
 .denklassiske section {
-    margin: 10px;
-    max-width: 30%;
+  margin: 10px;
+  max-width: 30%;
 }
 
 /*Sætter kaloriedelen ind i en display flex og sætter det som column i stedet. Her ændrer jeg margin-top og sætter den med stor vigtig så den reagerer på dette og ikke det ovenover*/
 .Kalorier {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: fit-content;
-    margin-top: 100px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: fit-content;
+  margin-top: 100px !important;
 }
 
 /*Sørger for at selve teksten er placeret lidt over billedet*/
-.Kalorier h3{
+.Kalorier h3 {
   margin: 0 0 -30px 0;
   z-index: 1;
   font-family: "eight", sans-serif;
@@ -223,97 +222,97 @@ img{
 
 /*Tilpasser designet ved at vende denne section spejlvendt ift. de andre og udsmykker den efter*/
 .denfriske {
-    display: flex;
-    flex-direction: row-reverse;
-    text-align: right;
-    margin-bottom: 5%;
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+  margin-bottom: 5%;
 }
 
-.denfriske section{
-    margin: 1%;
-    max-width: 30%;
+.denfriske section {
+  margin: 1%;
+  max-width: 30%;
 }
 
 /*Sætter mine produkter ind i en display flex for at få teksten op ved siden af billedet og giver den margin bottom, så den løfter sig fra bunden*/
 .densunde {
-    display: flex;
-    margin-left: 5%;
-    margin-bottom: 10%;
+  display: flex;
+  margin-left: 5%;
+  margin-bottom: 10%;
 }
 
 .densunde section {
-    margin: 1%;
-    max-width: 30%;
-    margin-bottom: -20%;
+  margin: 1%;
+  max-width: 30%;
+  margin-bottom: -20%;
 }
 
 /*Styler 'tilføj til kurv'-knappen og placerer den ovenpå billeddet*/
 .button {
-    position: absolute;
-    top: 105%;
-    left: 20%;
-    background-color: #140078;
-    color: white;
-    font-size: 16px;
-    padding: 30px 200px;
-    border: none;
-    cursor: pointer;
-    border-radius: 10px;
-    text-align: center;
-    font-family: "eight", sans-serif;
-  }
-  
-  /*Sørger for at knappen reagerer når man glider musen henover*/
-  .button:hover {
-    background-color: black;
-  }
-
-/*Styler 'tilføj til kurv'-knappen og placerer den ovenpå billeddet*/
-  button[type="button"] {
-    position: absolute;
-    top: 200%;
-    left: 50%;
-    background-color: #140078;
-    color: white;
-    font-size: 16px;
-    padding: 30px 200px;
-    border: none;
-    cursor: pointer;
-    border-radius: 10px;
-    text-align: center;
-    font-family: "eight", sans-serif;
-  }
+  position: absolute;
+  top: 105%;
+  left: 20%;
+  background-color: #140078;
+  color: white;
+  font-size: 16px;
+  padding: 30px 200px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "eight", sans-serif;
+}
 
 /*Sørger for at knappen reagerer når man glider musen henover*/
-  button[type="button"]:hover {
-    background-color: #000000; 
-  }
+.button:hover {
+  background-color: black;
+}
+
+/*Styler 'tilføj til kurv'-knappen og placerer den ovenpå billeddet*/
+button[type="button"] {
+  position: absolute;
+  top: 200%;
+  left: 50%;
+  background-color: #140078;
+  color: white;
+  font-size: 16px;
+  padding: 30px 200px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "eight", sans-serif;
+}
+
+/*Sørger for at knappen reagerer når man glider musen henover*/
+button[type="button"]:hover {
+  background-color: #000000;
+}
 
 
 /*Styler 'tilføj til kurv'-knappen og placerer den ovenpå billeddet*/
-  button[type="button3"] {
-    position: absolute;
-    top: 290%;
-    left: 20%;
-    background-color: #140078;
-    color: white;
-    font-size: 16px;
-    padding: 30px 200px;
-    border: none;
-    cursor: pointer;
-    border-radius: 10px;
-    text-align: center;
-    font-family: "eight", sans-serif;
-  }
-  
+button[type="button3"] {
+  position: absolute;
+  top: 290%;
+  left: 20%;
+  background-color: #140078;
+  color: white;
+  font-size: 16px;
+  padding: 30px 200px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "eight", sans-serif;
+}
+
 /*Sørger for at knappen reagerer når man glider musen henover*/
-  button[type="button3"]:hover {
-    background-color: #000000;
-  }
+button[type="button3"]:hover {
+  background-color: #000000;
+}
 
 
 /*Placerer den nye variant nede i højre hjørne*/
-.nyvariant{
+.nyvariant {
   display: flex;
   justify-content: flex-end;
   margin-top: 0;
@@ -327,90 +326,96 @@ img{
 /*Tilføjer @media regler til de mindre skærme*/
 @media only screen and (max-width: 600px) {
 
-/*Ændrer og placerer fonts*/
- h1{
-  font-size: 40px;
-  margin-top: 10px;
- }
+  /*Ændrer og placerer fonts*/
+  h1 {
+    font-size: 40px;
+    margin-top: 10px;
+  }
 
- h2{
-  margin-top: 40px;
- }
+  h2 {
+    margin-top: 40px;
+  }
 
-h3{
-  font-size: 20px;
-}
+  h3 {
+    font-size: 20px;
+  }
 
-/*Ændrer flex direction så det står lodret i stedet for vandret*/
-.denklassiske, .denfriske, .densunde{
-  display: flex;
-  flex-direction: column;
-  margin-left: 0;
-  margin-bottom: 40px;
-}
+  /*Ændrer flex direction så det står lodret i stedet for vandret*/
+  .denklassiske,
+  .denfriske,
+  .densunde {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
 
-/*Ændrer billedernes størrelser*/
-.denklassiske img, .denfriske img, .densunde img {
-  width: 200px;
-  
-}
+  /*Ændrer billedernes størrelser*/
+  .denklassiske img,
+  .denfriske img,
+  .densunde img {
+    width: 200px;
 
-/*Giver selve sektionerne en max vidde*/
-.denklassiske section, .denfriske section, .densunde section{
-  max-width: 100%;
-  margin: 0;
-}
+  }
 
-/*Styler & positionere de forskellige knapper*/
-.button{
-  padding: 20px;
-  position: absolute;
-  top: 400px;
-}
+  /*Giver selve sektionerne en max vidde*/
+  .denklassiske section,
+  .denfriske section,
+  .densunde section {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  /*Styler & positionere de forskellige knapper*/
+  .button {
+    padding: 20px;
+    position: absolute;
+    top: 400px;
+  }
 
 
-button[type="button"] {
-  padding: 20px;
-  position: absolute;
-  top: 1500px;
-  width: 175px;
-  margin-left: -70px;
+  button[type="button"] {
+    padding: 20px;
+    position: absolute;
+    top: 1500px;
+    width: 175px;
+    margin-left: -70px;
 
-}
+  }
 
-button[type="button3"] {
-  padding: 20px;
-  position: absolute;
-  top: 2450px;
-}
+  button[type="button3"] {
+    padding: 20px;
+    position: absolute;
+    top: 2450px;
+  }
 
-/*Sørger for at den 'nyvariant' ikke vises, men at 'tilbagetilforsiden' vises i stedet*/
-.nyvariant{
-  display: none;
-}
+  /*Sørger for at den 'nyvariant' ikke vises, men at 'tilbagetilforsiden' vises i stedet*/
+  .nyvariant {
+    display: none;
+  }
 
-.tilbagetilforsiden{
-  display: block;
-  display: flex;
-  justify-content: flex-end;
-  position: fixed;
-  bottom: -20px;
-  right: -15px;
-}
+  .tilbagetilforsiden {
+    display: block;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: -20px;
+    right: -15px;
+  }
 
-.tilbagetilforsiden img {
-  max-width: 80px;
-}
+  .tilbagetilforsiden img {
+    max-width: 80px;
+  }
 
-/*Ændrer størrelserne på kaloriedelen*/
-.Kalorier h3{
-  font-size: 25px;
-}
+  /*Ændrer størrelserne på kaloriedelen*/
+  .Kalorier h3 {
+    font-size: 25px;
+  }
 
-/*Fjerne marginen ved kalorier og giver den stor vigtighed, så min kode reagere på dette i stedet*/
-.Kalorier {
-  margin: 5px !important;
-}
+  /*Fjerne marginen ved kalorier og giver den stor vigtighed, så min kode reagere på dette i stedet*/
+  .Kalorier {
+    margin: 5px !important;
+  }
 
 
 }
@@ -421,47 +426,53 @@ button[type="button3"] {
 
 /**Styler min footer**/
 .footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 9%;
-    background-color: #FFF7B3;
-    color: rgb(0, 0, 0);
-    text-align: left;
-    display: flex;
-    justify-content: flex-end;
-    padding: 1px; 
-  }
-  
-  /* Tilføjer lidt margin mellem sektionerne og placere den i højre hjørne */
-  .footer section {
-    flex: end;
-      margin: 0 10px; 
-      font-size: 15px;
-  }
-  
-  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 9%;
+  background-color: #FFF7B3;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1px;
+}
+
+/* Tilføjer lidt margin mellem sektionerne og placere den i højre hjørne */
+.footer section {
+  flex: end;
+  margin: 0 10px;
+  font-size: 15px;
+}
+
+
 /*Sørger for at info-delene er større end de andre*/
+.info p {
+  font-size: 30px;
+}
+
+/*Skjuler den ekstra seo*/
+.ekstraseo {
+  display: none;
+}
+
+/*Laver @media regler til min footer så designet ser bedre ud og tilpasser sig*/
+@media only screen and (max-width: 600px) {
+
+  /*Ændrer font størrelserne*/
   .info p {
-    font-size: 30px;
+    font-size: 25px;
   }
-  
-  @media only screen and (max-width: 600px) { 
 
-/*Ændrer font størrelserne*/
-    .info p {
-      font-size: 25px;
-    }
-  
-    .info2 p {
-        font-size: 10px;
-      }
-
-/*Sørger for at del 2 af info delen står under hinanden og i centrum*/
-      .info2 {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        }
-  
+  .info2 p {
+    font-size: 10px;
   }
+
+  /*Sørger for at del 2 af info delen står under hinanden og i centrum*/
+  .info2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+}

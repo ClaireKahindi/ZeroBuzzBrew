@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,162 +14,191 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
-  
+
 
   <!--Linker til den tilsvarende CSS-->
   <link rel="stylesheet" href="css/bagombrandet.css">
 </head>
+
 <body>
   <main>
 
 
-<header>
-  
-<!--Indsætter min indkøbskurv & søgefunktion og putter det ind i en class for at kunne style den lettere i mi CSS, tilføjer SEO i alt-teksten-->
-<div class="indkob">
-  <a href="default.asp"><img src="images/indkøbskurv.png" alt="Indkøbskurv til bestillinger af øl og merch" style="width:42px;height:42px;"></a>
-  <div class="sogeikon">
-  <a href="default.asp"><img src="images/nytsogeikon.png" alt="Søgefunktion til hurtige svar" style="width:30px;height:30px;"></a>
-</div>
-</div>
+    <header>
 
-<!--Indsætter et logo i venstre hjørne og linker den til hjemmesidens forside for bedre brugeroplevelse, tilføjer SEO ord i alt-teksten-->
-<div class="logotilbage">
-<a href="forside.html"><img src="images/logofirkantudenfigur.png" alt="Logo til upcoming brand med alkoholfri øl - ZeroBuzzBrew" style="width: 70px;"></a>
-</div>
+      <!--Indsætter min indkøbskurv & søgefunktion og putter det ind i en class for at kunne style den lettere i mi CSS, tilføjer SEO i alt-teksten-->
+      <div class="indkob">
+        <a href="default.asp"><img src="images/indkøbskurv.png" alt="Indkøbskurv til bestillinger af øl og merch"
+            style="width:42px;height:42px;"></a>
+        <div class="sogeikon">
+          <a href="default.asp"><img src="images/nytsogeikon.png" alt="Søgefunktion til hurtige svar"
+              style="width:30px;height:30px;"></a>
+        </div>
+      </div>
 
-<!-- Laver min navigationsbar med links til undersiderne og dropdownfunktion ved at tilføje en knap-->
+      <!--Indsætter et logo i venstre hjørne og linker den til hjemmesidens forside for bedre brugeroplevelse, tilføjer SEO ord i alt-teksten-->
+      <div class="logotilbage">
+        <a href="forside.html"><img src="images/logofirkantudenfigur.png"
+            alt="Logo til upcoming brand med alkoholfri øl - ZeroBuzzBrew" style="width: 70px;"></a>
+      </div>
+
+      <!-- Laver min navigationsbar med links til undersiderne og dropdownfunktion ved at tilføje en knap-->
       <nav class="navbar">
         <div class="dropdown">
-          <button class="dropbtn">PRODUKTER 
+          <button class="dropbtn">PRODUKTER
           </button>
           <div class="dropdown-content">
-            <a  href="produkter.html">Varianter</a>
+            <a href="produkter.html">Varianter</a>
             <a href="#">Merch</a>
           </div>
-        </div> 
-      
+        </div>
+
         <div class="dropdown">
-          <button class="dropbtn">FORUM 
+          <button class="dropbtn">FORUM
           </button>
           <div class="dropdown-content">
             <a href="forum.html">Hvorfor alkoholfri?</a>
             <a href="#">Chat</a>
             <a href="#">Events</a>
           </div>
-        </div> 
-      
-      
+        </div>
+
+
         <div class="dropdown">
-          <button class="dropbtn">BAG OM BRANDET 
+          <button class="dropbtn">BAG OM BRANDET
           </button>
           <div class="dropdown-content">
-<!--Tilføjer en funktion der gør, at brugeren kan se, hvilken underside de er inde på (vha. CSS også)-->
+            <!--Tilføjer en funktion der gør, at brugeren kan se, hvilken underside de er inde på (vha. CSS også)-->
             <a class="active" href="bagombrandet.html">Mød os</a>
             <a href="#">Bryggeriet</a>
           </div>
-        </div> 
-      
+        </div>
+
         <div class="dropdown">
-          <button class="dropbtn">KONTAKT OS 
+          <button class="dropbtn">KONTAKT OS
           </button>
           <div class="dropdown-content">
             <a href="#">Find os</a>
             <a href="#">Sociale medier</a>
             <a href="#">Hyppigt stillede spørgsmål</a>
           </div>
-        </div> 
-      
+        </div>
+
       </nav>
 
 
-<!--Tilføjer en burgermenu, som kun kan ses på mindre skærme vha. css, tilføjer SEO ord i alt teksten-->
-<nav class="burger">
-  <a href="burgermenu.html"><img src="images/burgermenu.png" alt="Burger menu til ZeroBuzz Brew med produkter, forum og bag om brandet"></a>
-</nav>
+      <!--Tilføjer en burgermenu, som kun kan ses på mindre skærme vha. css, tilføjer SEO ord i alt teksten-->
+      <nav class="burger">
+        <a href="burgermenu.html"><img src="images/burgermenu.png"
+            alt="Burger menu til ZeroBuzz Brew med produkter, forum og bag om brandet"></a>
+      </nav>
 
-</header>
-
-
-<!--Tilføjer en h1 som overskrift af min artikel og sætter selve artikeldelen ind i en section class-->
-<h1> MØD OS! </h1>
-
-<section class="artikeldelen">
-<article>
-  Her hos ZeroBuzz Brew er vi et ungt team på 15 medarbejdere, der hver dag arbejder på at udlevere alkoholfri øl med topkvalitet og lækker smag til jer!  Vi deler en fælles passion, om at skabe et univers her hos ZeroBuzz Brew, der både er indbydende, behageligt og samtidigt fristende, som alle kan tage del i.
-  Vores team består af erfarne bryggere, kreative smagsudviklere og entusiastiske salgs- og markedsføringsfolk, som alle arbejder sammen om at opfylde vores mission: at bryde stigmatiseringen omkring alkohol og tilbyde et alternativ, der er lige så lækkert og fornøjeligt som traditionel øl, men uden alkoholens indflydelse. 
-  Vi er dedikerede til at fortsætte vores indsats for at forfine vores bryggeproces, eksperimentere med nye smagsvarianter og forblive på forkant med udviklingen for at sikre kvalitet og glæde vores kunder med hver slurk.
-</article>
-
-<!--Tilføjer en h3, som skal fungere som en call to action ved at inddrage brugerne-->
-<h3>
-  Her hos ZeroBuzz Brew, elsker vi at inddrage vores kunder i processen, da vi designer for jer, til jer. Vær ikke bleg for at efterlade inputs! 
-</h3>
-
-</section>
+    </header>
 
 
-<!--Indsætter min personaers navne og billederne dertil i en sektion, tilføjer SEO ord i alt-teksterne-->
+    <!--Tilføjer en h1 som overskrift af min artikel og sætter selve artikeldelen ind i en section class-->
+    <h1> MØD OS! </h1>
 
-<div class="personer">
-<section class="Emma">
-<h1>EMMA</h1>
-<img src="images/Emma.jpeg" alt="Emma medarbejder hos ZerBuzzBrew">
-<article>
-  Hej! Jeg hedder Emma og jeg er grafisk designer her hos ZeroBuzzBrew.
-  Jeg har altid haft en forkærlighed for detaljer og jeg elsker at kunne bruge min kreativitet til at skabe designs, der virkelig fanger essensen af vores produkter. 
-  Når jeg ikke designer, nyder jeg at dykke ned i nye trends, hvor jeg finder inspiration i de små detaljer i hverdagen. Det er fantastisk at være en del af et innovativt brand som ZeroBuzzBrew, hvor jeg kan bidrage til at skabe noget, som vores kunder elsker.
-  Det bedste ved at arbejde hos ZeroBuzzBrew er, at jeg får lov til at være en del af et team, der deler min entusiasme for innovation og kvalitet. 
-</article>
-</section>
+    <section class="artikeldelen">
+      <article>
+        Her hos ZeroBuzz Brew er vi et ungt team på 15 medarbejdere, der hver dag arbejder på at udlevere alkoholfri øl
+        med topkvalitet og lækker smag til jer! Vi deler en fælles passion, om at skabe et univers her hos ZeroBuzz
+        Brew, der både er indbydende, behageligt og samtidigt fristende, som alle kan tage del i.
+        Vores team består af erfarne bryggere, kreative smagsudviklere og entusiastiske salgs- og markedsføringsfolk,
+        som alle arbejder sammen om at opfylde vores mission: at bryde stigmatiseringen omkring alkohol og tilbyde et
+        alternativ, der er lige så lækkert og fornøjeligt som traditionel øl, men uden alkoholens indflydelse.
+        Vi er dedikerede til at fortsætte vores indsats for at forfine vores bryggeproces, eksperimentere med nye
+        smagsvarianter og forblive på forkant med udviklingen for at sikre kvalitet og glæde vores kunder med hver
+        slurk.
+      </article>
 
+      <!--Tilføjer en h3, som skal fungere som en call to action ved at inddrage brugerne-->
+      <h3>
+        Her hos ZeroBuzz Brew, elsker vi at inddrage vores kunder i processen, da vi designer for jer, til jer. Vær ikke
+        bleg for at efterlade inputs!
+      </h3>
 
-<section class="Kasper">
-  <h1>KASPER</h1>
-  <img src="images/kasper.png" alt= "Kasper medarbejder hos ZerBuzzBrew">
-  <article>
-    Hejsa, jeg hedder Kasper og min rolle her hos ZeroBuzzBrew er marketing, hvor jeg har ansvaret for at sprede vores budskab og styrke vores brand. 
-    Uden for arbejdet nyder jeg at udforske nye steder, spille fodbold med vennerne og opdage nye musik.
-    Det bedste ved at arbejde hos ZeroBuzzBrew er at kunne arbejde i et dynamisk og innovativt miljø samtidig med, at jeg kan forfølge mine interesser, da det gør min hverdag både spændende og afbalanceret.
-  </article>
-  </section>
-</div>
-
-</main>
-
-<!--Tilføjer en nyvariant som skal fungere som en Call to action knap i bunden af min side - linker den til produkter-->
-<div class="nyvariant">
-  <a href="produkter.html"><img src="images/nyvariant.png" alt="Ny sund variant fra ZeroBuzz Brew! Alkoholfri øl med smag af ingefær "></a>
-</div>
+    </section>
 
 
-<!--Laver en tilbage til forsiden knap, til de mindre skærme, tilføjer SEO ord i alt-teksten-->
-<div class="tilbagetilforsiden">
-  <a href="forside.html"><img src="images/logotilbage.png" alt="Glad og optimistisk øl figur fra ZeroBuzz Brew"></a>
-</div>
+    <!--Indsætter min personaers navne og billederne dertil i en sektion, tilføjer SEO ord i alt-teksterne-->
 
-<div class="footer">
+    <div class="personer">
+      <section class="Emma">
+        <h1>EMMA</h1>
+        <img src="images/Emma.jpeg" alt="Emma medarbejder hos ZerBuzzBrew">
+        <article>
+          Hej! Jeg hedder Emma og jeg er grafisk designer her hos ZeroBuzzBrew.
+          Jeg har altid haft en forkærlighed for detaljer og jeg elsker at kunne bruge min kreativitet til at skabe
+          designs, der virkelig fanger essensen af vores produkter.
+          Når jeg ikke designer, nyder jeg at dykke ned i nye trends, hvor jeg finder inspiration i de små detaljer i
+          hverdagen. Det er fantastisk at være en del af et innovativt brand som ZeroBuzzBrew, hvor jeg kan bidrage til
+          at skabe noget, som vores kunder elsker.
+          Det bedste ved at arbejde hos ZeroBuzzBrew er, at jeg får lov til at være en del af et team, der deler min
+          entusiasme for innovation og kvalitet.
+        </article>
+      </section>
 
-  <section class="info">
-    <div>
-    <p> info / </p>
+
+      <section class="Kasper">
+        <h1>KASPER</h1>
+        <img src="images/kasper.png" alt="Kasper medarbejder hos ZerBuzzBrew">
+        <article>
+          Hejsa, jeg hedder Kasper og min rolle her hos ZeroBuzzBrew er marketing, hvor jeg har ansvaret for at sprede
+          vores budskab og styrke vores brand.
+          Uden for arbejdet nyder jeg at udforske nye steder, spille fodbold med vennerne og opdage nye musik.
+          Det bedste ved at arbejde hos ZeroBuzzBrew er at kunne arbejde i et dynamisk og innovativt miljø samtidig med,
+          at jeg kan forfølge mine interesser, da det gør min hverdag både spændende og afbalanceret.
+        </article>
+      </section>
     </div>
-  </section>
+
+  </main>
+
+  <!--Tilføjer en nyvariant som skal fungere som en Call to action knap i bunden af min side - linker den til produkter-->
+  <div class="nyvariant">
+    <a href="produkter.html"><img src="images/nyvariant.png"
+        alt="Ny sund variant fra ZeroBuzz Brew! Alkoholfri øl med smag af ingefær "></a>
+  </div>
 
 
-  <section class="info2">
-    <p>Århusvej 1, 1. tv 8000 Aarhus </p>
-<!--Tilføjer et direkte link til ZeroBuzzBrews mail for bedre brugeroplevelse-->
-    <p><a href="mailto:ZeroBuzzBrew@gmail.dk">ZeroBuzzBrew@gmail.dk</a></p>
-  </section>
+  <!--Laver en tilbage til forsiden knap, til de mindre skærme, tilføjer SEO ord i alt-teksten-->
+  <div class="tilbagetilforsiden">
+    <a href="forside.html"><img src="images/logotilbage.png" alt="Glad og optimistisk øl figur fra ZeroBuzz Brew"></a>
+  </div>
 
-  <section class="info2">
-    <p> FAQ </p>
-    <p> tlf: 12 34 56 78 </p>
-  </section>
+  <div class="footer">
 
-</div>
+    <section class="info">
+      <div>
+        <p> info / </p>
+      </div>
+    </section>
+
+
+    <section class="info2">
+      <p>Århusvej 1, 1. tv 8000 Aarhus </p>
+      <!--Tilføjer et direkte link til ZeroBuzzBrews mail for bedre brugeroplevelse-->
+      <p><a href="mailto:ZeroBuzzBrew@gmail.dk">ZeroBuzzBrew@gmail.dk</a></p>
+    </section>
+
+    <section class="info2">
+      <p> FAQ </p>
+      <p> tlf: 12 34 56 78 </p>
+    </section>
+
+  </div>
+
+  <!--Tilføjer ekstra seo, som skal skjules med CSS-->
+  <div class="ekstraseo">
+    <p>
+      ZeroBuzzBrew et alkoholfrit ølbrand med forskellige forfriskende smagsvarianter!
+      Ungt team, relaterbart team. Grafisk designer, markedsføringsfolk.
+      Del dine tanker og inputs.
+    </p>
+  </div>
 
   <script src="js/js.js"></script>
 </body>
+
 </html>

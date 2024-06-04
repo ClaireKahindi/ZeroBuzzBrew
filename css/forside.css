@@ -30,7 +30,6 @@
   border: none;
   color: rgb(0, 0, 0);
   padding: 30px 50px;
-  padding-bottom: px;
   background-color: inherit;
 }
 
@@ -201,7 +200,6 @@ h4 {
   margin-left: 40%;
   width: 50%;
   height: auto;
-  margin-top: -10;
 }
 
 
@@ -224,7 +222,6 @@ h4 {
 
 /* Tilføjer lidt margin mellem sektionerne og placerer den i højre hjørne */
 .footer section {
-  flex: end;
   margin: 0 10px;
   font-size: 15px;
 }

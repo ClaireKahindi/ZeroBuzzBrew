@@ -44,7 +44,6 @@
   border: none;
   color: rgb(0, 0, 0);
   padding: 30px 50px;
-  padding-bottom: px;
   background-color: inherit;
 }
 
@@ -352,7 +351,6 @@ h3 {
 
 /* Tilføjer lidt margin mellem sektionerne og placere den i højre hjørne */
 .footer section {
-  flex: end;
   margin: 0 10px;
   font-size: 15px;
 }

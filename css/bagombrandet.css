@@ -31,7 +31,6 @@
   border: none;
   color: rgb(0, 0, 0);
   padding: 30px 50px;
-  padding-bottom: px;
   background-color: inherit;
 }
 
@@ -130,10 +129,9 @@ h1 {
   margin-bottom: 0;
 }
 
-/*Ændrer fonten og dets weight på min h3 for at gøre den mere iøjenfaldende*/
+/*Ændrer fonten*/
 h3 {
   font-family: "montserrat", sans-serif;
-  font-weight: 300px;
 }
 
 /*Tilføjer whitespace mellem mine sætninger, ændrer min font og fjerner margin øverst*/
@@ -309,7 +307,6 @@ body {
 
 /* Tilføjer lidt margin mellem sektionerne og placerer den i højre hjørne */
 .footer section {
-  flex: end;
   margin: 0 10px;
   font-size: 15px;
 }

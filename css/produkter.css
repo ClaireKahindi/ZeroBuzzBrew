@@ -30,7 +30,6 @@
   border: none;
   color: rgb(0, 0, 0);
   padding: 30px 50px;
-  padding-bottom: px;
   background-color: inherit;
 }
 
@@ -140,23 +139,20 @@ h1 {
   margin: 0;
 }
 
-/*Ændrer farven, font og str på overskriften til den bestemte øl*/
+/*Ændrer farven og font på overskriften til den bestemte øl*/
 .denklassiske h2 {
   color: #140078;
   font-family: "montserrat", sans-serif;
-  font-weight: 700%;
 }
 
 .denfriske h2 {
   color: #E1CB00;
   font-family: "montserrat", sans-serif;
-  font-weight: 700%;
 }
 
 .densunde h2 {
   color: #F2C86F;
   font-family: "montserrat", sans-serif;
-  font-weight: 700%;
 }
 
 /*Ændrer fonts, størrelserne på skriften for at få bedre design samt tilføjer mere white space mellem linjerne*/
@@ -440,7 +436,6 @@ button[type="button3"]:hover {
 
 /* Tilføjer lidt margin mellem sektionerne og placere den i højre hjørne */
 .footer section {
-  flex: end;
   margin: 0 10px;
   font-size: 15px;
 }

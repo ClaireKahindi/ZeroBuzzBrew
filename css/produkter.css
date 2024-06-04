@@ -192,7 +192,7 @@ img {
 }
 
 /*Tilpasser sektionen for mere whitespace = bedre design*/
-.denklassiske section {
+.denklassiske div {
   margin: 10px;
   max-width: 30%;
 }
@@ -224,7 +224,7 @@ img {
   margin-bottom: 5%;
 }
 
-.denfriske section {
+.denfriske div {
   margin: 1%;
   max-width: 30%;
 }
@@ -236,7 +236,7 @@ img {
   margin-bottom: 10%;
 }
 
-.densunde section {
+.densunde div {
   margin: 1%;
   max-width: 30%;
   margin-bottom: -20%;
@@ -286,7 +286,7 @@ button[type="button"]:hover {
 
 
 /*Styler 'tilføj til kurv'-knappen og placerer den ovenpå billeddet*/
-button[type="button3"] {
+button[type="Button"] {
   position: absolute;
   top: 290%;
   left: 20%;
@@ -302,7 +302,7 @@ button[type="button3"] {
 }
 
 /*Sørger for at knappen reagerer når man glider musen henover*/
-button[type="button3"]:hover {
+button[type="Button"]:hover {
   background-color: #000000;
 }
 
@@ -355,9 +355,9 @@ button[type="button3"]:hover {
   }
 
   /*Giver selve sektionerne en max vidde*/
-  .denklassiske section,
-  .denfriske section,
-  .densunde section {
+  .denklassiske div,
+  .denfriske div,
+  .densunde div {
     max-width: 100%;
     margin: 0;
   }
@@ -379,7 +379,7 @@ button[type="button3"]:hover {
 
   }
 
-  button[type="button3"] {
+  button[type="Button"] {
     padding: 20px;
     position: absolute;
     top: 2450px;
@@ -435,7 +435,7 @@ button[type="button3"]:hover {
 }
 
 /* Tilføjer lidt margin mellem sektionerne og placere den i højre hjørne */
-.footer section {
+.footer div {
   margin: 0 10px;
   font-size: 15px;
 }
@@ -456,7 +456,7 @@ button[type="button3"]:hover {
 
   /*Ændrer font størrelserne*/
   .info p {
-    font-size: 25px;
+    font-size: 19px;
   }
 
   .info2 p {

@@ -221,7 +221,7 @@ h4 {
 }
 
 /* Tilføjer lidt margin mellem sektionerne og placerer den i højre hjørne */
-.footer section {
+.footer div {
   margin: 0 10px;
   font-size: 15px;
 }
@@ -272,7 +272,7 @@ h4 {
 
   /*Ændrer font størrelserne*/
   .info p {
-    font-size: 25px;
+    font-size: 19px;
   }
 
   .info2 p {

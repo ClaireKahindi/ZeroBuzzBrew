@@ -177,21 +177,14 @@ body {
 }
 
 
-/*Tilføjer en lille smule margin mellem sectionerne*/
-.artikel1 section {
-  margin: 1%;
-}
-
-
-
 /*Gør mit billede større, så teksten og billedet overlapper*/
 img {
-  width: 500%;
+  width: 475%;
   margin-left: 1px;
 }
 
 /*Tilføjer mellemrum mellem linjerne, tilpasser margin og font ved mine artikler*/
-article {
+h4 {
   line-height: 2.5;
   margin-left: 29%;
   margin-right: 5%;
@@ -199,7 +192,7 @@ article {
   font-family: "abel", sans-serif;
 }
 
-.delto article {
+.delto h4 {
   line-height: 2.5;
   margin-left: 21%;
   margin-right: 5%;
@@ -252,7 +245,7 @@ h3 {
   }
 
   /*Positionerer selve article men brødteksten i, da den skal stå forskudt med overskriften*/
-  .artikel1 article {
+  .artikel1 h4 {
     margin-left: 0;
     font-size: 15px;
     margin-right: 0;
@@ -286,18 +279,18 @@ h3 {
   /*Tilpasser del2s overskrifter & article, da disse elementer her skal agerer anerledes*/
   .delto h2 {
     position: relative;
-    left: -115px;
+    left: -105px;
   }
 
   .delto h1 {
     position: relative;
-    left: -115px;
+    left: -105px;
     width: 150%;
   }
 
-  .delto article {
+  .delto h4 {
     position: relative;
-    left: -135px;
+    left: -122px;
     width: 300px;
   }
 
@@ -321,9 +314,9 @@ h3 {
   }
 
 
-  .artikel1 section {
+  .artikel1 div {
     padding: 0;
-    width: 200px;
+    width: 192px;
   }
 
 
@@ -350,7 +343,7 @@ h3 {
 }
 
 /* Tilføjer lidt margin mellem sektionerne og placere den i højre hjørne */
-.footer section {
+.footer div {
   margin: 0 10px;
   font-size: 15px;
 }
@@ -371,7 +364,7 @@ h3 {
 
   /*Ændrer font størrelserne*/
   .info p {
-    font-size: 25px;
+    font-size: 19px;
   }
 
   .info2 p {

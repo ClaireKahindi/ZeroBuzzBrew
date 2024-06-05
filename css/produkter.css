@@ -286,7 +286,7 @@ button[type="button"]:hover {
 
 
 /*Styler 'tilføj til kurv'-knappen og placerer den ovenpå billeddet*/
-button[type="Button"] {
+.densunde button[type="button"] {
   position: absolute;
   top: 290%;
   left: 20%;
@@ -302,7 +302,7 @@ button[type="Button"] {
 }
 
 /*Sørger for at knappen reagerer når man glider musen henover*/
-button[type="Button"]:hover {
+.densunde button[type="button"]:hover {
   background-color: #000000;
 }
 
@@ -375,11 +375,11 @@ button[type="Button"]:hover {
     position: absolute;
     top: 1500px;
     width: 175px;
-    margin-left: -70px;
-
+    left: 20%;
   }
 
-  button[type="Button"] {
+  
+  .densunde button[type="button"] {
     padding: 20px;
     position: absolute;
     top: 2450px;

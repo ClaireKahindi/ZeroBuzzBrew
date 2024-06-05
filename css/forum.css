@@ -266,6 +266,8 @@ h3 {
 
   h3 {
     margin: 0;
+    font-size: 15px;
+    margin-bottom: 10px;
   }
 
   /*Giver min del2 en bestemt vidde, line-height (for bedre læsevenlighed) og positionerer den*/

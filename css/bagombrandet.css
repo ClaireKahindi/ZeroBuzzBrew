@@ -263,6 +263,7 @@ body {
   /*Ændrer font størrelse på min h3*/
   h3 {
     font-size: 12px;
+    line-height: 1.6;
   }
 
   /*Sørger for at den 'nyvariant' ikke vises, men at 'tilbagetilforsiden' vises i stedet*/
